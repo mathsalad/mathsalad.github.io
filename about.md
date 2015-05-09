@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a person, that does math... Currently not in school. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I will mostly write on mathematical things, maybe a few other things too, but mostly math. The math will be things that I am doing, possibly of no interest, importance, or originality, but I like it. There is a chance it also won't make any sense, hence the blog title **Math Salad**, a play on the phrase [word salad][wordsalad].
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[wordsalad]: https://en.wikipedia.org/wiki/Word_salad
