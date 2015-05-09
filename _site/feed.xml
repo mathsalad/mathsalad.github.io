@@ -5,9 +5,26 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2015 23:07:20 -0600</pubDate>
-    <lastBuildDate>Fri, 08 May 2015 23:07:20 -0600</lastBuildDate>
+    <pubDate>Sat, 09 May 2015 02:29:55 -0600</pubDate>
+    <lastBuildDate>Sat, 09 May 2015 02:29:55 -0600</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>My first post, a test, and some possible future writings</title>
+        <description>&lt;p&gt;My first plans, when I get everything together, including getting this site together, is to talk about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Selection principles, and related “statements”&lt;/li&gt;
+  &lt;li&gt;Some basic small cancellation theory of group, following Ol’shanskii’s book “Geometry of Defining Relations in Groups”&lt;/li&gt;
+  &lt;li&gt;How small cancellation theory helped me solve a problem that came up in a project for a class called “Selection principles in topology” (which I have not solved yet, but pretty sure small cancellation theory will solve it, and will be important in solving it…)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 09 May 2015 00:00:00 -0600</pubDate>
+        <link>/2015/05/09/my-first-post-and-initial-plans/</link>
+        <guid isPermaLink="true">/2015/05/09/my-first-post-and-initial-plans/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>
