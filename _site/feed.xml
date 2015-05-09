@@ -5,13 +5,13 @@
     <description>A site of incorherent mathematical rambling.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2015 19:03:18 -0600</pubDate>
-    <lastBuildDate>Fri, 08 May 2015 19:03:18 -0600</lastBuildDate>
+    <pubDate>Fri, 08 May 2015 19:12:56 -0600</pubDate>
+    <lastBuildDate>Fri, 08 May 2015 19:12:56 -0600</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!&lt;br /&gt;
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Jekyll also offers powerful&lt;/strong&gt; support for code snippets:&lt;/p&gt;
