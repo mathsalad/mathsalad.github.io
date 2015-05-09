@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-09T02:29:55-06:00</updated>
+ <updated>2015-05-09T03:21:44-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -21,7 +21,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;Selection principles, and related “statements”&lt;/li&gt;
-  &lt;li&gt;Some basic small cancellation theory of group, following Ol’shanskii’s book “Geometry of Defining Relations in Groups”&lt;/li&gt;
+  &lt;li&gt;Some basic small cancellation theory of groups, following Ol’shanskii’s book “Geometry of Defining Relations in Groups”&lt;/li&gt;
   &lt;li&gt;How small cancellation theory helped me solve a problem that came up in a project for a class called “Selection principles in topology” (which I have not solved yet, but pretty sure small cancellation theory will solve it, and will be important in solving it…)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
