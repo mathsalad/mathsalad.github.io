@@ -21,11 +21,11 @@ The following is a math block:
 
 $$ 5 + 5 $$
 
-But next comes a paragraph with an inline math statement:
+# But next comes a paragraph with an inline math statement:
 
 \$$ 5 + 5 $$
 
-Okay how about something a bit more complicated?
+## Okay how about something a bit more complicated?
 
 If $$ A $$ is a subset of a group $$ G $$ the normal closure of $$ A $$ in $$ G $$ is the smallest normal subgroup of $$ G $$ containing $$ A $$ and we will denote it $$ A^G $$.  A free group on a set $$ S $$ will be denoted $$ F_S $$ and a free group of rank  (free group on $$ n $$ elements) will be denoted $$ F_n $$.
 
