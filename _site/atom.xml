@@ -4,13 +4,40 @@
  <title>Math Salad(under construction)</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-09T06:04:26-06:00</updated>
+ <updated>2015-05-10T03:15:49-06:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>The Basics Of Small Cancellation Theory</title>
+   <link href="/2015/05/10/the-basics-of-small-cancellation-theory/"/>
+   <updated>2015-05-10T02:09:31-06:00</updated>
+   <id>/2015/05/10/the-basics-of-small-cancellation-theory</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Marked Group Topology</title>
+   <link href="/2015/05/10/marked-group-topology/"/>
+   <updated>2015-05-10T02:08:52-06:00</updated>
+   <id>/2015/05/10/marked-group-topology</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro To Selection Principles</title>
+   <link href="/2015/05/10/intro-to-selection-principles/"/>
+   <updated>2015-05-10T02:08:30-06:00</updated>
+   <id>/2015/05/10/intro-to-selection-principles</id>
+   <content type="html">
+</content>
+ </entry>
  
  <entry>
    <title>My first post, a test, and some possible future writings</title>
