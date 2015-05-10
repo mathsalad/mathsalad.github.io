@@ -25,7 +25,21 @@
       {% endif %}
     {% endfor %}
     
+    
+    
     <li class="divider"></li>
+    <span class="sidebar-nav-item">Recent</span>
+    <ul class="posts">  
+	{% for post in site.posts limit:4 %}  
+	   <li>  
+		   <small><span>{{ post.date | date_to_string }}</span> &raquo;  
+		   <a  href="{{ BASE_PATH }}{{ post.url }}"> 
+		   {{ post.title }}</a>  </small> 
+	   </li>  
+	{% endfor %}  
+</ul>
+    
+    
     <span class="sidebar-nav-item">Blogroll</span>
     <small><a class="sidebar-nav-item" href="https://392c.wordpress.com/">392C Geometric Group Theory</a>
     <a class="sidebar-nav-item" href="https://assorteddetails.wordpress.com/">Assorted Details Following</a>
