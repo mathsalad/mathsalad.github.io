@@ -190,6 +190,20 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
+.sidebar-nav-item-wo-border {
+  display: block;
+  padding: .1rem .5rem;
+}
+.sidebar-nav-item-wo-border.active,
+a.sidebar-nav-item-wo-border:hover,
+a.sidebar-nav-item-wo-border:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.1);
+}
+
+
+
+
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1rem;
@@ -198,6 +212,14 @@ a.sidebar-nav-item:focus {
     padding-left:  1rem;
     padding-right: 1rem;
   }
+  
+  
+  .sidebar-nav-item-wo-border {
+    padding-left:  1rem;
+    padding-right: 1rem;
+  }
+  
+  
 }
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
