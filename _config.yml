@@ -12,11 +12,23 @@ tagline:             'Incoherent mathematical writings'
 baseurl:             ''
 paginate:            5
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: " Paul Plummer"
+
+
 # About/contact
 #author:              Paul Plummer
 #  name:              Paul Plummer
 #  url:               https://twitter.com/mdo
 #  email:             markdotto@gmail.com
 
+collections:
+ - blogroll
 # Custom vars
 version:             test site
