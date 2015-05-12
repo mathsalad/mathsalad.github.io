@@ -5,34 +5,12 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 May 2015 00:20:13 -0600</pubDate>
-    <lastBuildDate>Tue, 12 May 2015 00:20:13 -0600</lastBuildDate>
+    <pubDate>Tue, 12 May 2015 01:11:52 -0600</pubDate>
+    <lastBuildDate>Tue, 12 May 2015 01:11:52 -0600</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>The Basics Of Small Cancellation Theory</title>
-        <description>
-</description>
-        <pubDate>Sun, 10 May 2015 02:09:31 -0600</pubDate>
-        <link>/2015/05/10/the-basics-of-small-cancellation-theory/</link>
-        <guid isPermaLink="true">/2015/05/10/the-basics-of-small-cancellation-theory/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Marked Group Topology</title>
-        <description>
-</description>
-        <pubDate>Sun, 10 May 2015 02:08:52 -0600</pubDate>
-        <link>/2015/05/10/marked-group-topology/</link>
-        <guid isPermaLink="true">/2015/05/10/marked-group-topology/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My first post, a test, and some possible future writings</title>
+        <title>My First Post And Initial Plans</title>
         <description>&lt;p&gt;My first plans, when I get everything together, including getting this site together, is to talk about:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -44,17 +22,6 @@
         <pubDate>Sat, 09 May 2015 00:00:00 -0600</pubDate>
         <link>/2015/05/09/my-first-post-and-initial-plans/</link>
         <guid isPermaLink="true">/2015/05/09/my-first-post-and-initial-plans/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introducing selection principles</title>
-        <description>&lt;p&gt;This will be an intoruction to selection principles. We define &lt;script type=&quot;math/tex&quot;&gt; S_1 (\mathcal{A},\mathcal{B} ) &lt;/script&gt; to be … &lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 May 2015 00:00:00 -0600</pubDate>
-        <link>/2015/05/09/intro-to-selection-principles/</link>
-        <guid isPermaLink="true">/2015/05/09/intro-to-selection-principles/</guid>
         
         
       </item>

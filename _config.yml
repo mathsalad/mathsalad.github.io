@@ -4,7 +4,8 @@
 permalink:           pretty
 relative_permalinks: true
 
-# Setup
+#future: false
+
 title:               Math Salad(under construction)
 tagline:             'Incoherent mathematical writings'
 #description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
@@ -16,12 +17,12 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: ""
     values:
-      layout: "default"
-      author: " Paul Plummer"
-
-
+      layout: "post"
+      author: "Paul Plummer,test"
+      
+      
 # About/contact
 #author:              Paul Plummer
 #  name:              Paul Plummer
