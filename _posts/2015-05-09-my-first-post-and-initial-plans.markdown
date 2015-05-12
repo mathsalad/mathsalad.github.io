@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "Paul Plummer"
+author: "Paul Plummer,"
 ---
 My first plans, when I get everything together, including getting this site together, is to talk about:
 
