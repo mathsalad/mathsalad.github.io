@@ -26,10 +26,10 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }} {{post.author}}</span>
   </p>
   <div class="content">
-    {{ post.content }}
+   {{ post.content}}
+    <!-- truncate post {{ post.content | truncatewords:75 }}<a href="{{ post.url }}">Read more...</a> -->
   </div>
 {% endfor %}
-
 
 
 <div class="pagination">
