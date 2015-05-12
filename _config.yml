@@ -17,7 +17,7 @@ defaults:
   -
     scope:
       path: ""
-      type: ""
+      type: "posts"
     values:
       layout: "post"
       author: "Paul Plummer,test"

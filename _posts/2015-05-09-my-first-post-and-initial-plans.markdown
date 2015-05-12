@@ -4,6 +4,7 @@ author: "Paul Plummer"
 date: 2015-05-09
 title: "My first post, a test, and some possible future writings"
 ---
+
 My first plans, when I get everything together, including getting this site together, is to talk about:
 
 * Selection principles, and related ideas
