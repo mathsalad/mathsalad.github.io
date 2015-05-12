@@ -20,7 +20,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Paul Plummer,test"
+      author: "Paul Plummer"
       
       
 # About/contact
