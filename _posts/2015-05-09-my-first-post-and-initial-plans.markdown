@@ -1,4 +1,8 @@
- My first plans, when I get everything together, including getting this site together, is to talk about:
+---
+layout: post
+author: "Paul Plummer"
+---
+My first plans, when I get everything together, including getting this site together, is to talk about:
 
 * Selection principles, and related ideas
 * Some basic small cancellation theory of groups, following Ol'shanskii's book "Geometry of Defining Relations in Groups"
