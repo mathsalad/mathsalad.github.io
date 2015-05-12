@@ -28,7 +28,10 @@ defaults:
 #  url:               https://twitter.com/mdo
 #  email:             markdotto@gmail.com
 
+markdown: kramdown
+
 collections:
  - blogroll
+ 
 # Custom vars
 version:             test site

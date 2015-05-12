@@ -4,7 +4,7 @@
  <title>Math Salad(under construction)</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-10T23:43:46-06:00</updated>
+ <updated>2015-05-12T00:20:13-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -31,15 +31,6 @@
  </entry>
  
  <entry>
-   <title>Intro To Selection Principles</title>
-   <link href="/2015/05/10/intro-to-selection-principles/"/>
-   <updated>2015-05-10T02:08:30-06:00</updated>
-   <id>/2015/05/10/intro-to-selection-principles</id>
-   <content type="html">
-</content>
- </entry>
- 
- <entry>
    <title>My first post, a test, and some possible future writings</title>
    <link href="/2015/05/09/my-first-post-and-initial-plans/"/>
    <updated>2015-05-09T00:00:00-06:00</updated>
@@ -51,6 +42,15 @@
   &lt;li&gt;Some basic small cancellation theory of groups, following Ol’shanskii’s book “Geometry of Defining Relations in Groups”&lt;/li&gt;
   &lt;li&gt;How small cancellation theory helped me solve a problem that came up in a project for a class called “selection principles in topology.” &lt;/li&gt;
 &lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing selection principles</title>
+   <link href="/2015/05/09/intro-to-selection-principles/"/>
+   <updated>2015-05-09T00:00:00-06:00</updated>
+   <id>/2015/05/09/intro-to-selection-principles</id>
+   <content type="html">&lt;p&gt;This will be an intoruction to selection principles. We define &lt;script type=&quot;math/tex&quot;&gt; S_1 (\mathcal{A},\mathcal{B} ) &lt;/script&gt; to be … &lt;/p&gt;
 </content>
  </entry>
  
