@@ -2,4 +2,4 @@
 
 ---
 
-This is a test. Does \( K \) or \[ J \]  work?, how about \( \mathbb{P} \) and \[ \mathscr{P} \]?  
+Test \\( \mathbb{P} \\) and \\[\mathcal P  \\]
