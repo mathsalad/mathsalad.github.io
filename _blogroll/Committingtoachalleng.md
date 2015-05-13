@@ -1,4 +1,4 @@
 ---
-title: committingtoachallenge 
-location: http://committingtoachallenge.com/
+-title: committingtoachallenge 
+-location: http://committingtoachallenge.com/
 ---
