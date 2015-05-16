@@ -1,4 +1,4 @@
 ---
 title: "alexpclark"
-location: "https://alexpclark.wordpress.com/"
+location: "http://alexpclark.com/"
 --- 
