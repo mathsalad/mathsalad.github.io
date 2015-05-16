@@ -30,7 +30,7 @@ Do any of the above (bulleted)examples have winning strategies for one of the pl
  
  **Definition of the strong measure zero game.** Let \\(X \subseteq \mathbb R\\). Then the strong measure zero game is the game \\(G_1( {\mathcal J}, {\mathcal O}_X)\\).
 
-There are a couple of other definitions I could have chosen, but I want to stress that the game has a very strong connection to strong measure zero, since player \\(I\\) can choose a sequence of \\(\epsilon_n\\) and play \\(J_{\epsilon_n} \\), in inning \\(n\\), and then \\(II\\) tries to cover \\(X\\) by collecting one interval from each \\(J_{\epsilon_n}\\). 
+There are a couple of other definitions I could have chosen, but I want to stress that the game has a very strong connection to strong measure zero, since player \\(I\\) can choose a sequence of \\(\epsilon_n\\) and play $$J_{\epsilon_n} $$, in inning \\(n\\), and then \\(II\\) tries to cover \\(X\\) by collecting one interval from each \\(J_{\epsilon_n}\\). 
 
 A very natural question to ask is when does player \\(I\\) have a winning strategy, and when does player \\(II\\) have a winning strategy in \\(G_1( {\mathcal J}, {\mathcal O}_X)\\)? This brings us to "the main event":
  

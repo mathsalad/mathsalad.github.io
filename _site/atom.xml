@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-15T22:09:23-06:00</updated>
+ <updated>2015-05-15T22:10:46-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -46,7 +46,7 @@
 
 &lt;p&gt;&lt;strong&gt;Definition of the strong measure zero game.&lt;/strong&gt; Let \(X \subseteq \mathbb R\). Then the strong measure zero game is the game \(G_1( {\mathcal J}, {\mathcal O}_X)\).&lt;/p&gt;
 
-&lt;p&gt;There are a couple of other definitions I could have chosen, but I want to stress that the game has a very strong connection to strong measure zero, since player \(I\) can choose a sequence of \(\epsilon_n\) and play \(J_{\epsilon_n} \), in inning \(n\), and then \(II\) tries to cover \(X\) by collecting one interval from each \(J_{\epsilon_n}\).&lt;/p&gt;
+&lt;p&gt;There are a couple of other definitions I could have chosen, but I want to stress that the game has a very strong connection to strong measure zero, since player \(I\) can choose a sequence of \(\epsilon_n\) and play &lt;script type=&quot;math/tex&quot;&gt;J_{\epsilon_n}&lt;/script&gt;, in inning \(n\), and then \(II\) tries to cover \(X\) by collecting one interval from each \(J_{\epsilon_n}\).&lt;/p&gt;
 
 &lt;p&gt;A very natural question to ask is when does player \(I\) have a winning strategy, and when does player \(II\) have a winning strategy in \(G_1( {\mathcal J}, {\mathcal O}_X)\)? This brings us to “the main event”:&lt;/p&gt;
 
