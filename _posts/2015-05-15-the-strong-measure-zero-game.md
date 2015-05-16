@@ -5,7 +5,7 @@
 ## Background
 Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject. 
 
- **Definition of the game $$G_1( \cal A, \cal B) $$.** Let $$ \mathcal{A}$$ and $$\mathcal{B} $$ be collections of sets, we define the game $$G_1(\cal{A}, \cal{B})$$ to be a game with two players, that we will denote $$I$$ and $$II$$, and the game will have [$$\omega$$ innings](ordinals), where each inning consists of a turn by $$I$$ and then a turn by $$II$$. By $$\omega$$ innings we mean there is an inning for each $$0,1,2,3, \dots $$ (if you prefer $$\omega = \mathbb N$$). The innings follow this pattern: player \\(I\\) starts off, in inning \\(n\\), by presenting a nonempty set \\(A_n\\) from \\(\cal A\\) which marks the end of player \\(I\\)'s turn, and then player \\(II\\) picks an \\(a_n \in  A_n\\). At the end of the \\(\omega\\) innings we are left with a play 
+ **Definition of the game $$G_1( \cal A, \cal B) $$.** Let $$ \mathcal{A}$$ and $$\mathcal{B} $$ be collections of sets, we define the game $$G_1(\cal{A}, \cal{B})$$ to be a game with two players, that we will denote $$I$$ and $$II$$, and the game will have [$$\omega$$ innings](ordinals), where each inning consists of a turn by $$I$$ and then a turn by $$II$$. By $$\omega$$ innings we mean there is an inning for each $$0,1,2,3, \dots $$ (if you prefer $$\omega = \mathbb N$$). The innings follow this pattern: player $$I$$ starts off, in inning $$n$$, by presenting a nonempty set $$A_n$$ from $$\cal A$$ which marks the end of player $$I$$'s turn, and then player $$II$$ picks an $$a_n \in  A_n$$. At the end of the $$\omega$$ innings we are left with a play 
  
  $$(A_0,a_0, \dots , A_i, a_i, \dots)$$
  
@@ -71,8 +71,7 @@ then we have that $$ \vert X \vert \leq \aleph_0 $$.
 
 $$ X \setminus \bigcup_{ \alpha \in { ^{< \omega} \omega} } \left( \bigcap_{n \in \omega} \{ x \in X \mid \alpha \frown (n) \in B_x \} \right) \neq \varnothing $$
 
-since the part that is being removed from $$X$$ is countable. Let $$x$$ be an element from this nonempty set. By the definition of the above set, we know that $$x$$ has the property, that for any sequence $$ \alpha \in {^{<\omega} \omega}$$, that there is an $$n$$ such that $$\alpha \frown (n) \not\in B_x$$. Starting with the empty sequence, $$ () $$, we know there is a least $$ n_1 $$ such that $$ (n_1) \not\in B_x$$, and we can continue doing this inductively, constructing sequences $$ (n_1,...,n_k) \not\in B_x\\) of length \\(k\\). This contradicts property 1.
-$$\square$$
+since the part that is being removed from $$X$$ is countable. Let $$x$$ be an element from this nonempty set. By the definition of the above set, we know that $$x$$ has the property, that for any sequence $$ \alpha \in {^{<\omega} \omega}$$, that there is an $$n$$ such that $$\alpha \frown (n) \not\in B_x$$. Starting with the empty sequence, $$ () $$, we know there is a least $$ n_1 $$ such that $$ (n_1) \not\in B_x$$, and we can continue doing this inductively, constructing sequences $$ (n_1,...,n_k) \not\in B_x$$ of length $$k$$. This contradicts property 1. $$\square$$
 
 **Theorem 1.** Player $$II$$ has a winning strategy in the strong measure zero game, if, and only if, $$X$$ is countable.
 
@@ -83,7 +82,7 @@ $$\square$$
 3. Player $$II$$ chooses one of the sets, which we will call $$T_n$$.
 4. Player $$II$$ wins if $$ \bigcap_{n \in \omega} T_n = \varnothing $$.
 
- Lets call this game $$\Gamma(Y)$$, or the disjoint open ball game on $$Y$$. We will now show that when $$II$$ has a winning strategy for $$\Gamma(Y)$$ then the set $$Y$$ is countably infinite. Let $$ \sigma $$ be a winning strategy for $$\Gamma(Y)$$. Note that we may assume that $$I$$ only plays from sets from a basis, and since we have a countably basis, we may assume that $$I$$ plays from some countable basis. Let $$ W= \{ P_n \mid n \in \omega \} $$ where $$ (P_n)_{n \in \omega} $$ is an enumeration  of all playable \\( \\{ S_1, S_2\\} \\), where \\( S_i \\) are from our chosen countable basis. For \\(x \in Y\\) we define 
+ Lets call this game $$\Gamma(Y)$$, or the disjoint open ball game on $$Y$$. We will now show that when $$II$$ has a winning strategy for $$\Gamma(Y)$$ then the set $$Y$$ is countably infinite. Let $$ \sigma $$ be a winning strategy for $$\Gamma(Y)$$. Note that we may assume that $$I$$ only plays from sets from a basis, and since we have a countably basis, we may assume that $$I$$ plays from some countable basis. Let $$ W= \{ P_n \mid n \in \omega \} $$ where $$ (P_n)_{n \in \omega} $$ is an enumeration  of all playable $$ \\{ S_1, S_2\\} $$, where $$ S_i $$ are from our chosen countable basis. For $$x \in Y$$ we define 
  
   $$
   \begin{align*}
@@ -134,11 +133,11 @@ $$\square$$
 
 **Theorem 2.** Player $$I$$ has a winning strategy in the strong measure zero game, if, and only if, $$X$$ is not strong measure zero.
 
-*proof of Theorem 2.* First we will prove ($$ \Leftarrow $$), so suppose that $$X$$ is not strong measure zero. Hence there is a sequence $$ (\epsilon_n) $$ for $$n \in \omega$$ such that, such that $$X$$ for all sequences of intervals $$ (A_n) $$, for $${n \in \omega} $$, length of $$A_n$$ is less than or equal too $$ \epsilon_n $$. So have player $$I$$ plays $$J_{\epsilon_n} $$ in inning $$n$$, so player $$II$$ can not cover the space, since it will only pick intervals less than \\(\epsilon_n\\) at inning \\(n\\).
+*proof of Theorem 2.* First we will prove ($$ \Leftarrow $$), so suppose that $$X$$ is not strong measure zero. Hence there is a sequence $$ (\epsilon_n) $$ for $$n \in \omega$$ such that, such that $$X$$ for all sequences of intervals $$ (A_n) $$, for $${n \in \omega} $$, length of $$A_n$$ is less than or equal too $$ \epsilon_n $$. So have player $$I$$ plays $$J_{\epsilon_n} $$ in inning $$n$$, so player $$II$$ can not cover the space, since it will only pick intervals less than $$\epsilon_n$$ at inning $$n$$.
 
 We will know prove ($$\Rightarrow$$), we will do the contrapositive, so we will show that if $$X$$ is strong measure zero then $$I$$ does not have a winning strategy. Let $$\sigma$$ be an arbitrary strategy for player $$I$$, and $$X$$ is strong measure zero. We will show that there is a play, by player $$II$$ that will beat this strategy. Here are some things that we are going to assume, to make the problem a bit easier:
 
-1. That we are playing on strong measure zero sets, that are subsets of compact sets, and in fact we will assume to be working with $$ [0,1] $$. This is enough since we can write $$\mathbb {R}$$ as a countable union of compact sets, for example $$\bigcup_{i \in \mathbb Z} [i,i+1] $$, and partition the innings, into countably infinite many infinite sets (think of sets of the form $$\{p^n \mid n \in \mathbb{N} \} $$, $$p$$ prime ), so we play the strong measure zero game on the $$j$$th compact set when the inning we are in is in the \\(j\\)th partition.
+1. That we are playing on strong measure zero sets, that are subsets of compact sets, and in fact we will assume to be working with $$ [0,1] $$. This is enough since we can write $$\mathbb {R}$$ as a countable union of compact sets, for example $$\bigcup_{i \in \mathbb Z} [i,i+1] $$, and partition the innings, into countably infinite many infinite sets (think of sets of the form $$\{p^n \mid n \in \mathbb{N} \} $$, $$p$$ prime ), so we play the strong measure zero game on the $$j$$th compact set when the inning we are in is in the $$j$$th partition.
 2. We will assume that the $$J_\epsilon$$'s that are played by player $$I$$ have $$\epsilon$$'s of the form $$1/n$$, since for some $$\epsilon$$ we can just move to a smaller number of the form $$1/n$$ without losing any generality.
 3. Let $$ s=(J_{\epsilon_1},...,J_{\epsilon_n},K_n) $$ be some sequence of turns, that is in the domain of player $$I$$'s strategy $$\sigma$$, then we define $$\hat\sigma(s)= \epsilon \iff \sigma(s) = J_\epsilon$$. 
 
@@ -160,7 +159,7 @@ Basically we continue in this fashion, and construct $$m_t$$, for arbitrary $$t$
 2. $$1/m_t < \min \{ \hat \sigma (K_1,...,K_t) \mid K_1 \in U_1,..., K_t \in U_t \} $$,
 3. And $$1/m_t$$ is a Lebesgue number of the cover $$U_t$$.
 
-So know we have a sequence $$(1/m_i)_{i \in \omega} $$, where each $$1/m_i$$ is a Lebesgue number of the coverings $$U_i$$. Since $$X$$ is strong measure zero we have that there is a covering  $$ \{L_i \mid i \in \omega\} $$ where each $$L_i$$ has length less than $$1/m_i$$. Since $$1/m_i$$ is a Lebesgue number of the cooresponding coverings, we can find an $$M_i \in U_i$$ such that $$L_i \subseteq M_i$$. We can choose the $$M_i$$ as our sets, and so we found a play where $$II$$ wins, hence \\(\sigma \\) is not a winning strategy, and since \\(\sigma\\) was arbitrary we are done.
+So know we have a sequence $$(1/m_i)_{i \in \omega} $$, where each $$1/m_i$$ is a Lebesgue number of the coverings $$U_i$$. Since $$X$$ is strong measure zero we have that there is a covering  $$ \{L_i \mid i \in \omega\} $$ where each $$L_i$$ has length less than $$1/m_i$$. Since $$1/m_i$$ is a Lebesgue number of the cooresponding coverings, we can find an $$M_i \in U_i$$ such that $$L_i \subseteq M_i$$. We can choose the $$M_i$$ as our sets, and so we found a play where $$II$$ wins, hence $$\sigma $$ is not a winning strategy, and since $$\sigma$$ was arbitrary we are done.
 $$\square$$
 Lemm
 ## Resources
