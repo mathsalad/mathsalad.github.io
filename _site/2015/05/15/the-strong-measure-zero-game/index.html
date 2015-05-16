@@ -11,7 +11,7 @@
 
   <title>
     
-      Math Salad &middot; Incoherent mathematical writings
+      The Strong Measure Zero Game &middot; Math Salad
     
   </title>
 
@@ -183,19 +183,10 @@ MathJax.Hub.Config({
       </div>
 
       <div class="container content">
-        <!--
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="//2015/05/15/the-strong-measure-zero-game/">
-        The Strong Measure Zero Game
-      </a>
-    </h1>
-
-    <span class="post-date">15 May 2015</span>
-
-    <h2 id="background">Background</h2>
+        <div class="post">
+  <h1 class="post-title">The Strong Measure Zero Game</h1>
+  <span class="post-date">15 May 2015 Paul Plummer</span>
+  <h2 id="background">Background</h2>
 <p>Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject.</p>
 
 <p><strong>Definition of the game <script type="math/tex">G_1( \cal A, \cal B)</script>.</strong> Let <script type="math/tex">\mathcal{A}</script> and <script type="math/tex">\mathcal{B}</script> be collections of sets, we define the game <script type="math/tex">G_1(\cal{A}, \cal{B})</script> to be a game with two players, that we will denote <script type="math/tex">I</script> and <script type="math/tex">II</script>, and the game will have <a href="ordinals"><script type="math/tex">\omega</script> innings</a>, where each inning consists of a turn by <script type="math/tex">I</script> and then a turn by <script type="math/tex">II</script>. By <script type="math/tex">\omega</script> innings we mean there is an inning for each <script type="math/tex">0,1,2,3, \dots</script> (if you prefer <script type="math/tex">\omega = \mathbb N</script>). The innings follow this pattern: player \(I\) starts off, in inning \(n\), by presenting a nonempty set \(A_n\) from \(\cal A\) which marks the end of player \(I\)’s turn, and then player \(II\) picks an \(a_n \in  A_n\). At the end of the \(\omega\) innings we are left with a play</p>
@@ -399,235 +390,14 @@ Lemm
 <p>*I think the proof is in : <code>F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449</code> based on some citations, it looks like that paper proved the duality of the games used to prove Thm 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.</p>
 
 
-  </div>
-  
-</div>
--->
-
-
-  <h1 class="post-title"><a href="/2015/05/15/the-strong-measure-zero-game/">The Strong Measure Zero Game</a></h1>
-  <p class="author">
-    <span class="post-date">15 May 2015 Paul Plummer</span>
-  </p>
-  <div class="content">
-   <h2 id="background">Background</h2>
-<p>Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject.</p>
-
-<p><strong>Definition of the game <script type="math/tex">G_1( \cal A, \cal B)</script>.</strong> Let <script type="math/tex">\mathcal{A}</script> and <script type="math/tex">\mathcal{B}</script> be collections of sets, we define the game <script type="math/tex">G_1(\cal{A}, \cal{B})</script> to be a game with two players, that we will denote <script type="math/tex">I</script> and <script type="math/tex">II</script>, and the game will have <a href="ordinals"><script type="math/tex">\omega</script> innings</a>, where each inning consists of a turn by <script type="math/tex">I</script> and then a turn by <script type="math/tex">II</script>. By <script type="math/tex">\omega</script> innings we mean there is an inning for each <script type="math/tex">0,1,2,3, \dots</script> (if you prefer <script type="math/tex">\omega = \mathbb N</script>). The innings follow this pattern: player \(I\) starts off, in inning \(n\), by presenting a nonempty set \(A_n\) from \(\cal A\) which marks the end of player \(I\)’s turn, and then player \(II\) picks an \(a_n \in  A_n\). At the end of the \(\omega\) innings we are left with a play</p>
-
-<script type="math/tex; mode=display">(A_0,a_0, \dots , A_i, a_i, \dots)</script>
-
-<p>of what happened in that game. Player <script type="math/tex">II</script> wins if <script type="math/tex">\{ a_i \mid i \in \omega \} \in \cal B</script> and <script type="math/tex">I</script> wins otherwise.</p>
-
-<p>A couple of examples to consider:</p>
-
-<ul>
-  <li>Let <script type="math/tex">D</script> consist of all dense subsets of <script type="math/tex">\mathbb R</script>. Consider <script type="math/tex">G_1 (D,D)</script>.</li>
-  <li>Let <script type="math/tex">X</script> be a countable subset of some topological space <script type="math/tex">Y</script> and <script type="math/tex">{\cal{O}}_Y</script> is the set of all open covers of <script type="math/tex">Y</script>, and <script type="math/tex">{\cal {O}}_X</script> the set of covers for <script type="math/tex">X</script>. Consider <script type="math/tex">G_1( {\cal{O}}_Y, {\cal{O}}_X)</script>.</li>
-  <li><script type="math/tex">V</script> is a finite dimentional rational vector space, and <script type="math/tex">A</script> is the set of infinite vector subspaces of <script type="math/tex">V</script>, and <script type="math/tex">B</script> is the set of sets that contain infinite rational vector subspaces of <script type="math/tex">V</script>. Consider <script type="math/tex">G_1(A,B)</script></li>
-  <li>Let <script type="math/tex">U</script> be an <a href="ultrafilters">ultrafilter</a> on some set. Consider <script type="math/tex">G_1(U,U)</script>.</li>
-  <li>Let <script type="math/tex">H</script> be a group and <script type="math/tex">{\mathcal N}_H</script> the set of subsets of <script type="math/tex">H</script> that normally generate the group. Consider <script type="math/tex">G_1({\mathcal N}_H, {\mathcal N}_H)</script> . There are also variation of considering sets that generate the group <script type="math/tex">H</script>, <script type="math/tex">{\mathcal K}_H</script> and looking at <script type="math/tex">G_1({\mathcal K}_H, {\mathcal N}_H)</script>, <script type="math/tex">G_1({\mathcal N}_H, {\mathcal K}_H)</script>, <script type="math/tex">G_1({\mathcal K}_H, {\mathcal K}_H)</script> (there is a very good chance I am going to write about this bullet point, and related ideas, in future posts, since it is basically the reason I started the blog).</li>
-  <li>etc. Think of some others!</li>
-</ul>
-
-<p>A strategy for a player is a function that takes what has been played and outputs the next move. So <script type="math/tex">s_1,s_2</script> will be strategies for players <script type="math/tex">I,II</script> respectively, and <script type="math/tex">s_1: \varnothing \mapsto A_0</script>, and <script type="math/tex">s_1: (A_0,a_0,...,A_i,a_i) \mapsto A_{i+1}</script>. We get a similar description for <script type="math/tex">s_2</script>. Basically they are instructions on a game trees that tell the player what to do next given where they are in the game tree. We call <script type="math/tex">s_i</script> a winning strategy provided the cooresponding player will <em>always</em> win following that strategy. It is interesting that in some games there is no winning strategy for either player, and in fact the two main theorems that will be presented will give such an example(assuming <a href="smz">Borel’s conjecture</a> is false)</p>
-
-<p>Do any of the above (bulleted)examples have winning strategies for one of the players? How about the games you came up with?</p>
-
-<p><strong>Definition of strong measure zero.</strong> A set <script type="math/tex">X \subseteq \mathbb R</script> is strong measure zero if, for all sequences <script type="math/tex">( \epsilon_n \mid n  \in \omega)</script> of positive real numbers, then there exists a sequence of intervals <script type="math/tex">I_n</script>, where the length of <script type="math/tex">I_n</script> is less than <script type="math/tex">\epsilon_n</script> for all <script type="math/tex">N</script>, and <script type="math/tex">A \subseteq  \cup_{n \in \omega} I_n</script>.</p>
-
-<p>Every strong measure zero set is <a href="measurezero">Lebesgue measure zero</a>, although not every measure zero set is strong measure zero, the <a href="cantor">Cantor set</a> provides <a href="cannotsmz">such an example</a>. It is also easy to see that every countable set is strong measure zero. In fact <a href="smz">Borel’s conjecture</a> actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. <a href="luzin">Luzin sets</a> provide examples of strong measure zero sets that are not countable.</p>
-
-<p>Let <script type="math/tex">J_{\epsilon}</script>, <script type="math/tex">\epsilon >0</script>, be the set of all intervals of length less than <script type="math/tex">\epsilon</script>, and say <script type="math/tex">{\mathcal J}:= \{J_\epsilon \mid \epsilon >0 \}</script>, and <script type="math/tex">{\mathcal O}_X</script> the set of open covers of some set <script type="math/tex">X \subseteq \mathbb R</script> (where the open sets come from <script type="math/tex">\mathbb R</script> and not <script type="math/tex">X</script> with the subspace topology).</p>
-
-<p><strong>Definition of the strong measure zero game.</strong> Let <script type="math/tex">X \subseteq \mathbb R</script>. Then the strong measure zero game is the game <script type="math/tex">G_1( {\mathcal J}, {\mathcal O}_X)</script>.</p>
-
-<p>There are a couple of other definitions I could have chosen, but I want to stress that the game has a very strong connection to strong measure zero, since player <script type="math/tex">I</script> can choose a sequence of <script type="math/tex">\epsilon_n</script> and play <script type="math/tex">J_{\epsilon_n}</script>, in inning <script type="math/tex">n</script>, and then <script type="math/tex">II</script> tries to cover <script type="math/tex">X</script> by collecting one interval from each <script type="math/tex">J_{\epsilon_n}</script>.</p>
-
-<p>A very natural question to ask is when does player <script type="math/tex">I</script> have a winning strategy, and when does player <script type="math/tex">II</script> have a winning strategy in <script type="math/tex">G_1( {\mathcal J}, {\mathcal O}_X)</script>? This brings us to “the main event”:</p>
-
-<p><strong>Theorem 1.</strong> Player <script type="math/tex">II</script> has a winning strategy in the strong measure zero game, if, and only if, <script type="math/tex">X</script> is countable.</p>
-
-<p><strong>Theorem 2.</strong> Player <script type="math/tex">I</script> has a winning strategy in the strong measure zero game, if, and only if, <script type="math/tex">X</script> is not strong measure zero.</p>
-
-<p>One of the things that makes these results interesting is that this means it is <em>consistent</em> for winning strategies to always exist, that is when all strong measure zero sets are countable, and it is consistent for there to be sets where there is no winning strategy, which is when there are uncountable strong measure zero sets(as an example the Luzin sets mentioned before).</p>
-
-<h2 id="the-proofs-of-theorem-1-and-2">The Proofs of Theorem 1 and 2</h2>
-<p>The proofs of Thm 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.</p>
-
-<p>First, some notation, <script type="math/tex">^\omega \omega</script> will be the set of infinite sequences of order type <script type="math/tex">\omega</script>, <script type="math/tex">% <![CDATA[
-^{< \omega} \omega %]]></script> will be the set of finite sequences indexed by finite ordinals. And if <script type="math/tex">x,y</script> are sequences, then <script type="math/tex">x \frown y</script> will be the concatenation of the sequences. As examples</p>
-
-<script type="math/tex; mode=display">(1,2,3,...) \in {^\omega \omega},</script>
-
-<script type="math/tex; mode=display">% <![CDATA[
-(7,10,2) \in {^{<\omega}} \omega %]]></script>
-
-<p>and</p>
-
-<script type="math/tex; mode=display">(7,10,2) \frown (24,1)= (7,10,2,24,1).</script>
-
-<p><strong>Lemma 3.</strong> Let <script type="math/tex">X</script> be a set and suppose that for each <script type="math/tex">x \in X</script> we have that a set <script type="math/tex">B_x</script>, which is a set of positive integer, finite length, sequences such that:</p>
-
-<ol>
-  <li>For every infinite sequence <script type="math/tex">(n_1,...,n_i,...)</script> there is a <script type="math/tex">k \in omega</script> such that <script type="math/tex">(n_1,...,n_k) \in B_x</script>.</li>
-  <li>
-    <p>For each finite sequence <script type="math/tex">(n_1,...,n_m)</script>,</p>
-
-    <script type="math/tex; mode=display">\vert \bigcap_{k \in \omega} \{ x \in X \mid (n_1,...,n_m,k) \in B_x \} \vert \leq \aleph_0,</script>
-  </li>
-</ol>
-
-<p>then we have that <script type="math/tex">\vert X \vert \leq \aleph_0</script>.</p>
-
-<p><em>proof of Lemma 3.</em> We will prove by contradiction, so suppose that <script type="math/tex">X</script> is an uncountable set with the above properties. This means that</p>
-
-<script type="math/tex; mode=display">% <![CDATA[
-X \setminus \bigcup_{ \alpha \in { ^{< \omega} \omega} } \left( \bigcap_{n \in \omega} \{ x \in X \mid \alpha \frown (n) \in B_x \} \right) \neq \varnothing %]]></script>
-
-<p>since the part that is being removed from <script type="math/tex">X</script> is countable. Let <script type="math/tex">x</script> be an element from this nonempty set. By the definition of the above set, we know that <script type="math/tex">x</script> has the property, that for any sequence <script type="math/tex">% <![CDATA[
-\alpha \in {^{<\omega} \omega} %]]></script>, that there is an <script type="math/tex">n</script> such that <script type="math/tex">\alpha \frown (n) \not\in B_x</script>. Starting with the empty sequence, <script type="math/tex">()</script>, we know there is a least <script type="math/tex">n_1</script> such that <script type="math/tex">(n_1) \not\in B_x</script>, and we can continue doing this inductively, constructing sequences <script type="math/tex">(n_1,...,n_k) \not\in B_x\\) of length \\(k\\). This contradicts property 1.</script>\square$$</p>
-
-<p><strong>Theorem 1.</strong> Player <script type="math/tex">II</script> has a winning strategy in the strong measure zero game, if, and only if, <script type="math/tex">X</script> is countable.</p>
-
-<p><em>proof of Theorem 1.</em>  It is easy to see that <script type="math/tex">II</script> has a winning strategy, since we can enumerate the set <script type="math/tex">X</script>, and in turn <script type="math/tex">n</script>, <script type="math/tex">II</script> covers the <script type="math/tex">n</script>-th element. For the other direction, we will need to define a different game. Let <script type="math/tex">(Y,d)</script> be a separable metric space, so it also has a countable basis. (Separable means contains a countable dense set subset.) The game has these rules:</p>
-
-<ol>
-  <li>There is an inning for each <script type="math/tex">n \in \omega</script>.</li>
-  <li>In inning <script type="math/tex">n</script> player <script type="math/tex">I</script> chooses a set <script type="math/tex">\{S_1,S_2\}</script>, where <script type="math/tex">S_i \subseteq Y</script> is open and the distance between <script type="math/tex">S_1</script> and <script type="math/tex">S_2</script> is positive, where distance between the two sets is defined to be <script type="math/tex">\inf \{ d(x,y) \mid (x,y) \in S_1 \times S_2 \}=d(S_1,S_2)</script>. We will call such pairs playable</li>
-  <li>Player <script type="math/tex">II</script> chooses one of the sets, which we will call <script type="math/tex">T_n</script>.</li>
-  <li>Player <script type="math/tex">II</script> wins if <script type="math/tex">\bigcap_{n \in \omega} T_n = \varnothing</script>.</li>
-</ol>
-
-<p>Lets call this game <script type="math/tex">\Gamma(Y)</script>, or the disjoint open ball game on <script type="math/tex">Y</script>. We will now show that when <script type="math/tex">II</script> has a winning strategy for <script type="math/tex">\Gamma(Y)</script> then the set <script type="math/tex">Y</script> is countably infinite. Let <script type="math/tex">\sigma</script> be a winning strategy for <script type="math/tex">\Gamma(Y)</script>. Note that we may assume that <script type="math/tex">I</script> only plays from sets from a basis, and since we have a countably basis, we may assume that <script type="math/tex">I</script> plays from some countable basis. Let <script type="math/tex">W= \{ P_n \mid n \in \omega \}</script> where <script type="math/tex">(P_n)_{n \in \omega}</script> is an enumeration  of all playable \( \{ S_1, S_2\} \), where \( S_i \) are from our chosen countable basis. For \(x \in Y\) we define</p>
-
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{align*}
-  
-  B_x := \{ (n_1,...,n_k ) \in {^{<\omega} \omega} \mid &x \in \sigma(P_{n_1}),...., \\
-  
-  &x \in \sigma(P_{n_1},T_{n_1},...,P_{n_{k-1}}), \\
-  
-  &x \not\in \sigma(P_{n_1},....,P_{n_{k-1}},T_{n_{k-1}},P_{n_k}) \} 
-  
-  \end{align*} %]]></script>
-
-<p>Given that <script type="math/tex">\sigma</script> is a winning strategy for <script type="math/tex">II</script>, we can see that for any <script type="math/tex">x \in B_x</script> and sequence <script type="math/tex">(n_1,...) \in {^\omega \omega}</script> that some segment <script type="math/tex">(n_1,...,n_k) \in B_x</script>, since otherwise <script type="math/tex">x \in \sigma(P_{n_1},...,P_{n_k})=T_{k-1}</script> for all <script type="math/tex">k>0</script>, so <script type="math/tex">x \in \bigcap_{i>0} T_i</script> contradicting that set being empty. Hence we have condition 1, from Lemma 3. We will now show condition 2 of Lemma 3. Suppose that we have distinct</p>
-
-<script type="math/tex; mode=display">x_1,x_2,x_3 \in \sigma( P_{n_1},....,P_{n_k} )</script>
-
-<p>for <script type="math/tex">1 \leq k \leq m</script>. We can choose playable pairs</p>
-
-<script type="math/tex; mode=display">P_{n_{1,2}}=\{A_1,A_2\},P_{n_{1,3}}=\{B_1,B_3\},P_{n_{2,3}}= \{C_2,C_3\}</script>
-
-<p>where the index <script type="math/tex">i</script> on the open sets says that it contains <script type="math/tex">x_i</script> but not the <script type="math/tex">x_j</script> where <script type="math/tex">j \neq i</script>, since we are in a metric space. And note that only one of the <script type="math/tex">x_i=y_1</script> can be in 
- <script type="math/tex">\sigma(P_{n_1},...,P_{n_m},P_{n_{k,l} })</script>, hence other two, <script type="math/tex">y_2,y_3</script>, are not contained in that set. This is true for each combination, so we have</p>
-
-<script type="math/tex; mode=display">(n_1,...,n_m,n_{k,l}) \in \left(B_{y_2} \cap B_{y_3} \right)\setminus B_{y_1}.</script>
-
-<p>So we get that <script type="math/tex">y_1 \not \in \{ x \mid (n_1,....,n_m,n_{k,l}) \in B_x</script>, and by shuffling things around, we get that each of the three points, <script type="math/tex">x_1,x_2,x_3</script>, have cooresponding sets that they are not in, hence they are not in the intersection of all those sets. This worked for an arbitrary choice of three points, so it must be</p>
-
-<script type="math/tex; mode=display">\bigcap_{n \in \omega} \{x \in Y \mid (n_1,...,n_m,n) \in B_x \}= \varnothing.</script>
-
-<p>Using Lemma 3, we get that the space is countable.</p>
-
-<p>Let <script type="math/tex">\Sigma</script> be a winning strategy for <script type="math/tex">II</script> in the strong measure zero game on <script type="math/tex">X</script>. We are going to show that the strategy <script type="math/tex">\Sigma</script> will help us construct a winning strategy <script type="math/tex">\sigma</script> in the game <script type="math/tex">\Gamma(X)</script>, hence <script type="math/tex">X</script> will be countable.</p>
-
-<p>Say that player <script type="math/tex">I</script> plays <script type="math/tex">P_1=\{S_1,S_2\}</script> in <script type="math/tex">\Gamma(X)</script>, and plays <script type="math/tex">J_{d(S_1,S_2)}=J_{\epsilon_1}</script> in the strong measure zero game. We will have player <script type="math/tex">II</script> play <script type="math/tex">A_1=\Sigma(J_{\epsilon_1})</script>, and then <script type="math/tex">\sigma(P_1)</script> will be an element disjoint from <script type="math/tex">A_1</script>, which we can pick since the length of <script type="math/tex">A_1</script> is less than <script type="math/tex">d(S_1,S_2)</script>. So we can define a strategy where 
-<script type="math/tex">\sigma( \{S_1^n,S_2^n\} )= S_1^n</script> if <script type="math/tex">\Sigma 
-\left(J_{d(S_1^n,S_2^N)} \right) \cap S_1^n = \varnothing</script> and <script type="math/tex">\sigma \left(\{S_1^n,S_2^n\} \right)= S_2^n</script> otherwise. We will now show that this is in fact a winning strategy. Note that</p>
-
-<script type="math/tex; mode=display">\left(\bigcap_{n \in \omega} \sigma(P_1,...,P_n) \right) \cap \left( \bigcup_{n \in \omega} A_n \right) = \varnothing</script>
-
-<p>but the union part covers the whole space so the intersection on the left must be empty. So player <script type="math/tex">II</script> has a winning strategy for <script type="math/tex">\Gamma(X)</script> when <script type="math/tex">II</script> has a winning strategy for the strong measure zero game. Thus <script type="math/tex">X</script> is countable.</p>
-
-<script type="math/tex; mode=display">\square</script>
-
-<p><strong>Lemma 4 (Lebesgue covering lemma).</strong> If <script type="math/tex">X</script> is a compact metric space, then for any open cover of <script type="math/tex">X</script>, there exists a postive real number <script type="math/tex">\delta</script>, the <em>Lebesgue number</em>, such that: for any <script type="math/tex">F \subseteq X</script> of diameter less than <script type="math/tex">\delta</script> there is a <script type="math/tex">U</script> in the open cover such that <script type="math/tex">F \subseteq U</script>.</p>
-
-<p><em>proof of Lemma 4.</em> This is a well known theorem, so no proof will be given. <script type="math/tex">\square</script></p>
-
-<p><strong>Theorem 2.</strong> Player <script type="math/tex">I</script> has a winning strategy in the strong measure zero game, if, and only if, <script type="math/tex">X</script> is not strong measure zero.</p>
-
-<p><em>proof of Theorem 2.</em> First we will prove (<script type="math/tex">\Leftarrow</script>), so suppose that <script type="math/tex">X</script> is not strong measure zero. Hence there is a sequence <script type="math/tex">(\epsilon_n)</script> for <script type="math/tex">n \in \omega</script> such that, such that <script type="math/tex">X</script> for all sequences of intervals <script type="math/tex">(A_n)</script>, for <script type="math/tex">{n \in \omega}</script>, length of <script type="math/tex">A_n</script> is less than or equal too <script type="math/tex">\epsilon_n</script>. So have player <script type="math/tex">I</script> plays <script type="math/tex">J_{\epsilon_n}</script> in inning <script type="math/tex">n</script>, so player <script type="math/tex">II</script> can not cover the space, since it will only pick intervals less than \(\epsilon_n\) at inning \(n\).</p>
-
-<p>We will know prove (<script type="math/tex">\Rightarrow</script>), we will do the contrapositive, so we will show that if <script type="math/tex">X</script> is strong measure zero then <script type="math/tex">I</script> does not have a winning strategy. Let <script type="math/tex">\sigma</script> be an arbitrary strategy for player <script type="math/tex">I</script>, and <script type="math/tex">X</script> is strong measure zero. We will show that there is a play, by player <script type="math/tex">II</script> that will beat this strategy. Here are some things that we are going to assume, to make the problem a bit easier:</p>
-
-<ol>
-  <li>That we are playing on strong measure zero sets, that are subsets of compact sets, and in fact we will assume to be working with <script type="math/tex">[0,1]</script>. This is enough since we can write <script type="math/tex">\mathbb {R}</script> as a countable union of compact sets, for example <script type="math/tex">\bigcup_{i \in \mathbb Z} [i,i+1]</script>, and partition the innings, into countably infinite many infinite sets (think of sets of the form <script type="math/tex">\{p^n \mid n \in \mathbb{N} \}</script>, <script type="math/tex">p</script> prime ), so we play the strong measure zero game on the <script type="math/tex">j</script>th compact set when the inning we are in is in the \(j\)th partition.</li>
-  <li>We will assume that the <script type="math/tex">J_\epsilon</script>’s that are played by player <script type="math/tex">I</script> have <script type="math/tex">\epsilon</script>’s of the form <script type="math/tex">1/n</script>, since for some <script type="math/tex">\epsilon</script> we can just move to a smaller number of the form <script type="math/tex">1/n</script> without losing any generality.</li>
-  <li>Let <script type="math/tex">s=(J_{\epsilon_1},...,J_{\epsilon_n},K_n)</script> be some sequence of turns, that is in the domain of player <script type="math/tex">I</script>’s strategy <script type="math/tex">\sigma</script>, then we define <script type="math/tex">\hat\sigma(s)= \epsilon \iff \sigma(s) = J_\epsilon</script>.</li>
-</ol>
-
-<p>We will now construct a play in which <script type="math/tex">II</script> which beats player <script type="math/tex">I</script> strategy <script type="math/tex">\sigma</script>. Say that <script type="math/tex">\sigma( \varnothing)= J_{1/n_1}</script>. Lets say <script type="math/tex">U_1 \subset J_{1/n_1}</script> is a finte open cover of <script type="math/tex">[0,1]</script> (which exists since <script type="math/tex">[0,1]</script> is compact). Consider <script type="math/tex">\min \{ \hat \sigma(K) \mid K \in U_1 \}</script>, and we will choose <script type="math/tex">m_1 \in \mathbb{N}</script> large enough so that:</p>
-
-<ol>
-  <li><script type="math/tex">% <![CDATA[
-n_1<m_1 %]]></script>,</li>
-  <li><script type="math/tex">% <![CDATA[
-1/m_1 < \min \{ \hat \sigma(K) \mid K \in U_1 \} %]]></script>,</li>
-  <li>and <script type="math/tex">1/m_1</script> is a Lebesgue number of the cover <script type="math/tex">U_1</script>.</li>
-</ol>
-
-<p>Basically we are going to go down, and play every possible outcome of the strategy <script type="math/tex">\sigma</script> possible. Let <script type="math/tex">U_2 \subset J_{1/m_1}</script>, be a finite open cover, so in particular this <script type="math/tex">U_2</script> works as a subcover for <script type="math/tex">\sigma(K)</script> for <script type="math/tex">K \in U_2</script> since <script type="math/tex">% <![CDATA[
-1/m_1 < \hat \sigma (K) %]]></script>. Then we are going to choose an <script type="math/tex">m_2  \in \mathbb N</script> large enough so that:</p>
-
-<ol>
-  <li><script type="math/tex">% <![CDATA[
-m_1 < m_2 %]]></script> (this also means that <script type="math/tex">% <![CDATA[
-\hat \sigma ( K ) < m_2 %]]></script> for <script type="math/tex">K \in U_1</script>, which are the corresponding “n_i” terms ),</li>
-  <li><script type="math/tex">% <![CDATA[
-1/m_2< \min\{ \hat \sigma (K_1,K_2) \mid K_1 \in U_1, K_2 \in U_2 \} %]]></script>,</li>
-  <li>And <script type="math/tex">1/m_2</script> is a Lebesgue number of the cover <script type="math/tex">U_2</script>.</li>
-</ol>
-
-<p>Basically we continue in this fashion, and construct <script type="math/tex">m_t</script>, for arbitrary <script type="math/tex">t</script> (which if that statement was good enough for you, I recommend skipping this paragraph). Suppose that we have <script type="math/tex">m_1,...,m_{t-1}</script> constructed. Then we are going to construct <script type="math/tex">m_t</script> by letting <script type="math/tex">U_t \subset J_{1/m_{t-1}}</script> be a finite open cover. Then we choose <script type="math/tex">m_t \in \mathbb{N}</script> large enough such that:</p>
-
-<ol>
-  <li><script type="math/tex">% <![CDATA[
-m_{t-1} < m_t %]]></script>,</li>
-  <li><script type="math/tex">% <![CDATA[
-1/m_t < \min \{ \hat \sigma (K_1,...,K_t) \mid K_1 \in U_1,..., K_t \in U_t \} %]]></script>,</li>
-  <li>And <script type="math/tex">1/m_t</script> is a Lebesgue number of the cover <script type="math/tex">U_t</script>.</li>
-</ol>
-
-<p>So know we have a sequence <script type="math/tex">(1/m_i)_{i \in \omega}</script>, where each <script type="math/tex">1/m_i</script> is a Lebesgue number of the coverings <script type="math/tex">U_i</script>. Since <script type="math/tex">X</script> is strong measure zero we have that there is a covering  <script type="math/tex">\{L_i \mid i \in \omega\}</script> where each <script type="math/tex">L_i</script> has length less than <script type="math/tex">1/m_i</script>. Since <script type="math/tex">1/m_i</script> is a Lebesgue number of the cooresponding coverings, we can find an <script type="math/tex">M_i \in U_i</script> such that <script type="math/tex">L_i \subseteq M_i</script>. We can choose the <script type="math/tex">M_i</script> as our sets, and so we found a play where <script type="math/tex">II</script> wins, hence \(\sigma \) is not a winning strategy, and since \(\sigma\) was arbitrary we are done.
-<script type="math/tex">\square</script>
-Lemm
-## Resources</p>
-
-<p>You can find out more about these sorts of things from this, <em>non-exhaustive</em>, list:</p>
-
-<ul>
-  <li>“The combinatorics of open covers (I): Ramsey theory” by Marion Scheepers,</li>
-  <li>“The combinatorics of open covers (II)” by Winfried Just, Arnold W. Miller, Marion Scheepers, and Paul J. Szeptycki,</li>
-  <li>…</li>
-  <li>“The combinatorics of open covers (<script type="math/tex">N</script>)” by … (well there are at least 11 of these…),</li>
-  <li>“Ramsey theory of open covers lecture 1” by Nadav Samet and Boaz Tsaban,</li>
-  <li>…</li>
-  <li>“Ramsey theory of open covers lecture 5” by Nadav Samet and Boaz Tsaban.</li>
-  <li>You can browse around <a href="http://diamond.boisestate.edu/~spm/index.html">here</a></li>
-</ul>
-
-<p>The “Ramsey theory of open covers” are more accessible and shorter than “The combinatorics of open covers…” and discuss some of the Ramsey theoretic aspects that are related to these games and to “selection principles” (which I did not discuss here, although are very related to games <script type="math/tex">G(\mathcal A,B)</script>).</p>
-
-<p>*I think the proof is in : <code>F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449</code> based on some citations, it looks like that paper proved the duality of the games used to prove Thm 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.</p>
-
-
-    <!-- truncate post <h2 id="background">Background</h2> <p>Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject.</p> <p><strong>Definition of the game <script type="math/tex">G_1( \cal...<a href="/2015/05/15/the-strong-measure-zero-game/">Read more...</a> -->
-  </div>
-
-
-
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
 </div>
 
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+  </ul>
+</div>
 
       </div>
     </div>
