@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-15T22:29:20-06:00</updated>
+ <updated>2015-05-15T22:31:30-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -199,9 +199,9 @@ m_{t-1} &lt; m_t %]]&gt;&lt;/script&gt;,&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So know we have a sequence &lt;script type=&quot;math/tex&quot;&gt;(1/m_i)_{i \in \omega}&lt;/script&gt;, where each &lt;script type=&quot;math/tex&quot;&gt;1/m_i&lt;/script&gt; is a Lebesgue number of the coverings &lt;script type=&quot;math/tex&quot;&gt;U_i&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is strong measure zero we have that there is a covering  &lt;script type=&quot;math/tex&quot;&gt;\{L_i \mid i \in \omega\}&lt;/script&gt; where each &lt;script type=&quot;math/tex&quot;&gt;L_i&lt;/script&gt; has length less than &lt;script type=&quot;math/tex&quot;&gt;1/m_i&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;1/m_i&lt;/script&gt; is a Lebesgue number of the cooresponding coverings, we can find an &lt;script type=&quot;math/tex&quot;&gt;M_i \in U_i&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;L_i \subseteq M_i&lt;/script&gt;. We can choose the &lt;script type=&quot;math/tex&quot;&gt;M_i&lt;/script&gt; as our sets, and so we found a play where &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; wins, hence &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; is not a winning strategy, and since &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; was arbitrary we are done.
-&lt;script type=&quot;math/tex&quot;&gt;\square&lt;/script&gt;
-Lemm
-## Resources&lt;/p&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\square&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
 &lt;p&gt;You can find out more about these sorts of things from this, &lt;em&gt;non-exhaustive&lt;/em&gt;, list:&lt;/p&gt;
 

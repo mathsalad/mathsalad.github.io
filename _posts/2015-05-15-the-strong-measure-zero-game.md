@@ -161,7 +161,8 @@ Basically we continue in this fashion, and construct $$m_t$$, for arbitrary $$t$
 
 So know we have a sequence $$(1/m_i)_{i \in \omega} $$, where each $$1/m_i$$ is a Lebesgue number of the coverings $$U_i$$. Since $$X$$ is strong measure zero we have that there is a covering  $$ \{L_i \mid i \in \omega\} $$ where each $$L_i$$ has length less than $$1/m_i$$. Since $$1/m_i$$ is a Lebesgue number of the cooresponding coverings, we can find an $$M_i \in U_i$$ such that $$L_i \subseteq M_i$$. We can choose the $$M_i$$ as our sets, and so we found a play where $$II$$ wins, hence $$\sigma $$ is not a winning strategy, and since $$\sigma$$ was arbitrary we are done.
 $$\square$$
-Lemm
+
+
 ## Resources
  
  You can find out more about these sorts of things from this, *non-exhaustive*, list:
