@@ -60,12 +60,12 @@ $$ (7,10,2) \frown (24,1)= (7,10,2,24,1). $$
 
 **Lemma 3.** Let $$X$$ be a set and suppose that for each $$x \in X$$ we have that a set $$B_x$$, which is a set of positive integer, finite length, sequences such that:
 
-1. For every infinite sequence $$ (n_1,...,n_i,...) $$ there is a $$ k \in omega $$ such that $$ (n_1,...,n_k) \in B_x $$.
+1. For every infinite sequence $$ (n_1,...,n_i,...) $$ there is a $$ k \in \omega $$ such that $$ (n_1,...,n_k) \in B_x $$.
 2. For each finite sequence $$ (n_1,...,n_m) $$, 
     
     $$ \vert \bigcap_{k \in \omega} \{ x \in X \mid (n_1,...,n_m,k) \in B_x \} \vert \leq \aleph_0, $$ 
 
-then we have that $$ \vert X \vert \leq \aleph_0 $$.
+then we have that $$ \vert X \vert \leq \aleph_0 $$ ($$X$$ is countable).
 
 *proof of Lemma 3.* We will prove by contradiction, so suppose that $$X$$ is an uncountable set with the above properties. This means that 
 

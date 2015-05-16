@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2015 01:38:21 -0600</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 01:38:21 -0600</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 01:43:31 -0600</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 01:43:31 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -71,7 +71,7 @@
 &lt;p&gt;&lt;strong&gt;Lemma 3.&lt;/strong&gt; Let &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; be a set and suppose that for each &lt;script type=&quot;math/tex&quot;&gt;x \in X&lt;/script&gt; we have that a set &lt;script type=&quot;math/tex&quot;&gt;B_x&lt;/script&gt;, which is a set of positive integer, finite length, sequences such that:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;For every infinite sequence &lt;script type=&quot;math/tex&quot;&gt;(n_1,...,n_i,...)&lt;/script&gt; there is a &lt;script type=&quot;math/tex&quot;&gt;k \in omega&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;(n_1,...,n_k) \in B_x&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;For every infinite sequence &lt;script type=&quot;math/tex&quot;&gt;(n_1,...,n_i,...)&lt;/script&gt; there is a &lt;script type=&quot;math/tex&quot;&gt;k \in \omega&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;(n_1,...,n_k) \in B_x&lt;/script&gt;.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;For each finite sequence &lt;script type=&quot;math/tex&quot;&gt;(n_1,...,n_m)&lt;/script&gt;,&lt;/p&gt;
 
@@ -79,7 +79,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;then we have that &lt;script type=&quot;math/tex&quot;&gt;\vert X \vert \leq \aleph_0&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;then we have that &lt;script type=&quot;math/tex&quot;&gt;\vert X \vert \leq \aleph_0&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is countable).&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;proof of Lemma 3.&lt;/em&gt; We will prove by contradiction, so suppose that &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is an uncountable set with the above properties. This means that&lt;/p&gt;
 
