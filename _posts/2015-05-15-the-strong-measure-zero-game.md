@@ -46,7 +46,7 @@ One of the things that makes these results interesting is that this means it is 
 
 
 ## The Proofs of Theorem 1 and 2
-The proofs of Thm 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.
+The proofs of Theorem 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.
 
 First, some notation, $$^\omega \omega$$ will be the set of infinite sequences of order type $$\omega$$, $$^{< \omega} \omega$$ will be the set of finite sequences indexed by finite ordinals. And if $$x,y$$ are sequences, then $$x \frown y$$ will be the concatenation of the sequences. As examples 
 
@@ -176,7 +176,7 @@ $$\square$$
  
  The "Ramsey theory of open covers" are more accessible and shorter than "The combinatorics of open covers..." and discuss some of the Ramsey theoretic aspects that are related to these games and to "selection principles" (which I did not discuss here, although are very related to games $$G(\mathcal A,B) $$).
  
-*I think the proof is in : `F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449` based on some citations, it looks like that paper proved the duality of the games used to prove Thm 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.
+*I think the proof is in : `F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449` based on some citations, it looks like that paper proved the duality of the games used to prove Theorem 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.
 
 
 [ordinals]: https://en.wikipedia.org/wiki/Ordinal_number

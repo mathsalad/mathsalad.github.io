@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2015 00:09:03 -0600</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 00:09:03 -0600</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 01:38:21 -0600</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 01:38:21 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -54,7 +54,7 @@
 &lt;p&gt;One of the things that makes these results interesting is that this means it is &lt;em&gt;consistent&lt;/em&gt; for winning strategies to always exist, that is when all strong measure zero sets are countable, and it is consistent for there to be sets where there is no winning strategy, which is when there are uncountable strong measure zero sets(as an example the Luzin sets mentioned before).&lt;/p&gt;
 
 &lt;h2 id=&quot;the-proofs-of-theorem-1-and-2&quot;&gt;The Proofs of Theorem 1 and 2&lt;/h2&gt;
-&lt;p&gt;The proofs of Thm 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.&lt;/p&gt;
+&lt;p&gt;The proofs of Theorem 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.&lt;/p&gt;
 
 &lt;p&gt;First, some notation, &lt;script type=&quot;math/tex&quot;&gt;^\omega \omega&lt;/script&gt; will be the set of infinite sequences of order type &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 ^{&lt; \omega} \omega %]]&gt;&lt;/script&gt; will be the set of finite sequences indexed by finite ordinals. And if &lt;script type=&quot;math/tex&quot;&gt;x,y&lt;/script&gt; are sequences, then &lt;script type=&quot;math/tex&quot;&gt;x \frown y&lt;/script&gt; will be the concatenation of the sequences. As examples&lt;/p&gt;
@@ -210,7 +210,7 @@ m_{t-1} &lt; m_t %]]&gt;&lt;/script&gt;,&lt;/li&gt;
 
 &lt;p&gt;The “Ramsey theory of open covers” are more accessible and shorter than “The combinatorics of open covers…” and discuss some of the Ramsey theoretic aspects that are related to these games and to “selection principles” (which I did not discuss here, although are very related to games &lt;script type=&quot;math/tex&quot;&gt;G(\mathcal A,B)&lt;/script&gt;).&lt;/p&gt;
 
-&lt;p&gt;*I think the proof is in : &lt;code&gt;F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449&lt;/code&gt; based on some citations, it looks like that paper proved the duality of the games used to prove Thm 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.&lt;/p&gt;
+&lt;p&gt;*I think the proof is in : &lt;code&gt;F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449&lt;/code&gt; based on some citations, it looks like that paper proved the duality of the games used to prove Theorem 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 15 May 2015 00:00:00 -0600</pubDate>
