@@ -26,7 +26,7 @@ Do any of the above (bulleted)examples have winning strategies for one of the pl
  
  Every strong measure zero set is [Lebesgue measure zero](measurezero), although not every measure zero set is strong measure zero, the [Cantor set](cantor) provides [such an example](cannotsmz). It is also easy to see that every countable set is strong measure zero. In fact [Borel's conjecture](smz) actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. [Luzin sets](luzin) provide examples of strong measure zero sets that are not countable.
  
- Let \\( J_\epsilon \\), \\( \epsilon >0 \\), be the set of all intervals of length less than \\(\epsilon\\), and say \\({\mathcal{J}}:= \\{J_\epsilon \mid \epsilon >0 \\} \\), and \\({\mathcal O}_X \\) the set of open covers of some set \\(X \subseteq \mathbb R\\) (where the open sets come from \\( \mathbb R\\) and not \\(X\\) with the subspace topology).
+ Let \\( J_{\epsilon} \\), \\( \epsilon >0 \\), be the set of all intervals of length less than \\(\epsilon\\), and say \\({\mathcal J}:= \\{J_\epsilon \mid \epsilon >0 \\} \\), and \\({\mathcal O}_X \\) the set of open covers of some set \\(X \subseteq \mathbb R\\) (where the open sets come from \\( \mathbb R\\) and not \\(X\\) with the subspace topology).
  
  **Definition of the strong measure zero game.** Let \\(X \subseteq \mathbb R\\). Then the strong measure zero game is the game \\(G_1( {\mathcal J}, {\mathcal O}_X)\\).
 
