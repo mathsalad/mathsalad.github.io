@@ -75,7 +75,7 @@ since the part that is being removed from $$X$$ is countable. Let $$x$$ be an el
 
 **Theorem 1.** Player $$II$$ has a winning strategy in the strong measure zero game, if, and only if, $$X$$ is countable.
 
-*proof of Theorem 1.*  It is easy to see that $$II$$ has a winning strategy, since we can enumerate the set $$X$$, and in turn $$n $$, $$II$$ covers the $$n$$-th element. For the other direction, we will need to define a different game. Let $$ (Y,d)$$ be a separable metric space, so it also has a countable basis. (Separable means contains a countable dense set subset.) The game has these rules:
+*proof of Theorem 1.*  It is easy to see that $$II$$ has a winning strategy, when $$X$$ is countable, since we can enumerate the set $$X$$, and in turn $$n $$, $$II$$ covers the $$n$$-th element. For the other direction, we will need to define a different game. Let $$ (Y,d)$$ be a separable metric space, so it also has a countable basis. (Separable means contains a countable dense set subset.) The game has these rules:
 
 1. There is an inning for each $$n \in \omega$$.
 2. In inning $$n$$ player $$I$$ chooses a set $$ \{S_1,S_2\} $$, where $$ S_i \subseteq Y $$ is open and the distance between $$S_1$$ and $$S_2$$ is positive, where distance between the two sets is defined to be $$\inf \{ d(x,y) \mid (x,y) \in S_1 \times S_2 \}=d(S_1,S_2) $$. We will call such pairs playable

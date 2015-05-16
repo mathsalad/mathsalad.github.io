@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-16T01:43:31-06:00</updated>
+ <updated>2015-05-16T01:44:53-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -97,7 +97,7 @@ X \setminus \bigcup_{ \alpha \in { ^{&lt; \omega} \omega} } \left( \bigcap_{n \i
 
 &lt;p&gt;&lt;strong&gt;Theorem 1.&lt;/strong&gt; Player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy in the strong measure zero game, if, and only if, &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is countable.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;proof of Theorem 1.&lt;/em&gt;  It is easy to see that &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy, since we can enumerate the set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, and in turn &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; covers the &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-th element. For the other direction, we will need to define a different game. Let &lt;script type=&quot;math/tex&quot;&gt;(Y,d)&lt;/script&gt; be a separable metric space, so it also has a countable basis. (Separable means contains a countable dense set subset.) The game has these rules:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;proof of Theorem 1.&lt;/em&gt;  It is easy to see that &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy, when &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is countable, since we can enumerate the set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, and in turn &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; covers the &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-th element. For the other direction, we will need to define a different game. Let &lt;script type=&quot;math/tex&quot;&gt;(Y,d)&lt;/script&gt; be a separable metric space, so it also has a countable basis. (Separable means contains a countable dense set subset.) The game has these rules:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;There is an inning for each &lt;script type=&quot;math/tex&quot;&gt;n \in \omega&lt;/script&gt;.&lt;/li&gt;
