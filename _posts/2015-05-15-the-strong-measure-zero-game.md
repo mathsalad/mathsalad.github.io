@@ -25,7 +25,7 @@ A strategy for a player is a function that takes what has been played and output
 
 Do any of the above (bulleted)examples have winning strategies for one of the players? How about the games you came up with?
 
- **Definition of strong measure zero.** A set $$X \subseteq \mathbb R$$ is strong measure zero if, for all sequences $$ ( \epsilon_n \mid n  \in \omega) $$ of positive real numbers, then there exists a sequence of intervals $$I_n$$, where the length of $$I_n$$ is less than $$\epsilon_n $$ for all $$n$$, and $$N \subseteq  \cup_{n \in \omega} I_n$$.
+ **Definition of strong measure zero.** A set $$X \subseteq \mathbb R$$ is strong measure zero if, for all sequences $$ ( \epsilon_n \mid n  \in \omega) $$ of positive real numbers, then there exists a sequence of intervals $$I_n$$, where the length of $$I_n$$ is less than $$\epsilon_n $$ for all $$n$$, and $$X \subseteq  \cup_{n \in \omega} I_n$$.
  
  Every strong measure zero set is [Lebesgue measure zero][measurezero], although not every measure zero set is strong measure zero, the [Cantor set][cantor] provides [such an example][cannotsmz]. It is also easy to see that every countable set is strong measure zero. In fact [Borel's conjecture][smz] actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. [Luzin sets][luzin] provide examples of strong measure zero sets that are not countable.
  

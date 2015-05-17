@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-17T01:34:27-06:00</updated>
+ <updated>2015-05-17T01:37:12-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Do any of the above (bulleted)examples have winning strategies for one of the players? How about the games you came up with?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Definition of strong measure zero.&lt;/strong&gt; A set &lt;script type=&quot;math/tex&quot;&gt;X \subseteq \mathbb R&lt;/script&gt; is strong measure zero if, for all sequences &lt;script type=&quot;math/tex&quot;&gt;( \epsilon_n \mid n  \in \omega)&lt;/script&gt; of positive real numbers, then there exists a sequence of intervals &lt;script type=&quot;math/tex&quot;&gt;I_n&lt;/script&gt;, where the length of &lt;script type=&quot;math/tex&quot;&gt;I_n&lt;/script&gt; is less than &lt;script type=&quot;math/tex&quot;&gt;\epsilon_n&lt;/script&gt; for all &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;N \subseteq  \cup_{n \in \omega} I_n&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition of strong measure zero.&lt;/strong&gt; A set &lt;script type=&quot;math/tex&quot;&gt;X \subseteq \mathbb R&lt;/script&gt; is strong measure zero if, for all sequences &lt;script type=&quot;math/tex&quot;&gt;( \epsilon_n \mid n  \in \omega)&lt;/script&gt; of positive real numbers, then there exists a sequence of intervals &lt;script type=&quot;math/tex&quot;&gt;I_n&lt;/script&gt;, where the length of &lt;script type=&quot;math/tex&quot;&gt;I_n&lt;/script&gt; is less than &lt;script type=&quot;math/tex&quot;&gt;\epsilon_n&lt;/script&gt; for all &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;X \subseteq  \cup_{n \in \omega} I_n&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;Every strong measure zero set is &lt;a href=&quot;https://en.wikipedia.org/wiki/Lebesgue_measure&quot;&gt;Lebesgue measure zero&lt;/a&gt;, although not every measure zero set is strong measure zero, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cantor_set&quot;&gt;Cantor set&lt;/a&gt; provides &lt;a href=&quot;http://math.stackexchange.com/questions/903973/the-cantor-set-is-not-strong-measure-zero&quot;&gt;such an example&lt;/a&gt;. It is also easy to see that every countable set is strong measure zero. In fact &lt;a href=&quot;https://en.wikipedia.org/wiki/Strong_measure_zero_set&quot;&gt;Borel’s conjecture&lt;/a&gt; actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. &lt;a href=&quot;https://en.wikipedia.org/wiki/Luzin_space&quot;&gt;Luzin sets&lt;/a&gt; provide examples of strong measure zero sets that are not countable.&lt;/p&gt;
 
