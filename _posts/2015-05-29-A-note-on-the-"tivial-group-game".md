@@ -32,7 +32,7 @@ The reason I only mention $$C'(1/6)$$ is that it is a strong enough small cancel
 
 ## Player $$I$$ has a winning strategy in $$G_1( \mathcal{N}_{F_2},\mathcal{N}_{F_2})$$
 
-Let $$F_2$$ be the free group of rank $$2$$, on the set $$\{x,y\}$$. We will show that $$F_2$$ has a winning strategy, by showing that there is a sequence of sets, $$A_0,...,A_n,...$$, that normally generate(even generates) the group $$F_2$$, and any one element choice from each of these sets, so $$\{a_0,...,a_n,...\}$$, will result in a group that is $$C'(1/6)$$. The strategy will then be on the $$n$$th turn play $$A_n$$.
+Let $$F_2$$ be the free group of rank $$2$$, on the set $$\{x,y\}$$. We will show that $$F_2$$ has a winning strategy, by showing that there is a sequence of sets, $$A_0,...,A_n,...$$, that normally generate, even generates, the group $$F_2$$, and any one element choice from each of these sets gives a set $$\{a_0,...,a_n,...\}$$, which will correspond to a group, $$G=\langle x,y \mid a_0,...,a_n,... \rangle$$,  that is $$C'(1/6)$$, which means that $$\{a_0,...,a_n,...\}$$ can not normally generate $$F_2$$. The strategy for player $$I$$ will be to play $$A_n$$ on the $$n$$th turn.
 
 There will be a couple parts where I make some estimates on inequalities, and make no attempt to make these as good as possible(the estimates I make are *good enough*). If you are sensitive to such disregard of sharp bounds, you will need to have your eyes covered for the rest of this proof. You have been warned.
 
