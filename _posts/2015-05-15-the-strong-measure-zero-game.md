@@ -123,7 +123,7 @@ $$\sigma( \{S_1^n,S_2^n\} )= S_1^n$$ if $$ \Sigma
 
 $$ \left(\bigcap_{n \in \omega} \sigma(P_1,...,P_n) \right) \cap \left( \bigcup_{n \in \omega} A_n \right) = \varnothing$$ 
 
-but the union part covers the whole space so the intersection on the left must be empty. So player $$II$$ has a winning strategy for $$\Gamma(X)$$ when $$II$$ has a winning strategy for the strong measure zero game. Thus $$X$$ is countable.\$$\square$$
+but the union part covers the whole space so the intersection on the left must be empty. So player $$II$$ has a winning strategy for $$\Gamma(X)$$ when $$II$$ has a winning strategy for the strong measure zero game. Thus $$X$$ is countable.$$\square$$
 
 **Lemma 4 (Lebesgue covering lemma).** If $$ X $$ is a compact metric space, then for any open cover of $$X$$, there exists a postive real number $$ \delta $$, the *Lebesgue number*, such that: for any $$F \subseteq X $$ of diameter less than $$ \delta $$ there is a $$U$$ in the open cover such that $$F \subseteq U$$.
 

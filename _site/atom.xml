@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-30T11:42:44-06:00</updated>
+ <updated>2015-05-30T15:32:37-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -222,7 +222,7 @@ X \setminus \bigcup_{ \alpha \in { ^{&lt; \omega} \omega} } \left( \bigcap_{n \i
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\left(\bigcap_{n \in \omega} \sigma(P_1,...,P_n) \right) \cap \left( \bigcup_{n \in \omega} A_n \right) = \varnothing&lt;/script&gt;
 
-&lt;p&gt;but the union part covers the whole space so the intersection on the left must be empty. So player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy for &lt;script type=&quot;math/tex&quot;&gt;\Gamma(X)&lt;/script&gt; when &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy for the strong measure zero game. Thus &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is countable.$$\square$$&lt;/p&gt;
+&lt;p&gt;but the union part covers the whole space so the intersection on the left must be empty. So player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy for &lt;script type=&quot;math/tex&quot;&gt;\Gamma(X)&lt;/script&gt; when &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has a winning strategy for the strong measure zero game. Thus &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is countable.&lt;script type=&quot;math/tex&quot;&gt;\square&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Lemma 4 (Lebesgue covering lemma).&lt;/strong&gt; If &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is a compact metric space, then for any open cover of &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, there exists a postive real number &lt;script type=&quot;math/tex&quot;&gt;\delta&lt;/script&gt;, the &lt;em&gt;Lebesgue number&lt;/em&gt;, such that: for any &lt;script type=&quot;math/tex&quot;&gt;F \subseteq X&lt;/script&gt; of diameter less than &lt;script type=&quot;math/tex&quot;&gt;\delta&lt;/script&gt; there is a &lt;script type=&quot;math/tex&quot;&gt;U&lt;/script&gt; in the open cover such that &lt;script type=&quot;math/tex&quot;&gt;F \subseteq U&lt;/script&gt;.&lt;/p&gt;
 
