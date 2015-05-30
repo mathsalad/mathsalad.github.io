@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\) &middot; Math Salad
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+  
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/">Archive</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+    
+   <a class="sidebar-nav-item" href="mailto:corrections_comments@mathsalad.com">Email</a>
+    
+    <a class="sidebar-nav-item"  href="/feed.xml">RSS</a>
+    
+   <!-- <li class="sidebar-nav-item"></li> --> 
+    <span class="sidebar-nav-item">Recent</span>
+     <!--  <ul class="posts"> --> 
+	  
+	   <!-- <li> --> 
+		   <small><span class="sidebar-nav-item-wo-border">29 May 2015&raquo; <a  href="/2015/05/29/A-note-on-the-%22tivial-group-game%22/"> 
+		   A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\)</a></span>  
+		     </small> 
+	  <!-- </li>  -->
+	  
+	   <!-- <li> --> 
+		   <small><span class="sidebar-nav-item-wo-border">15 May 2015&raquo; <a  href="/2015/05/15/the-strong-measure-zero-game/"> 
+		   The strong measure zero game</a></span>  
+		     </small> 
+	  <!-- </li>  -->
+	  
+<!--  </ul>-->
+    
+    
+<!--<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
+    
+    <!-- <li class="sidebar-nav-item"></li> --> 
+    <span class="sidebar-nav-item">Blogroll</span>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://392c.wordpress.com/"> 392C Geometric Group Theory </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://andrescaicedo.wordpress.com/"> A kind of library </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://alexsisto.wordpress.com/"> Alex Sisto </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="http://alexpclark.com/"> alexpclark </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://assorteddetails.wordpress.com/"> Assorted Details Following </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="http://boolesrings.org/"> Booles' Rings </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="">  </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://lamington.wordpress.com/"> Geometry and the imagination </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://berstein.wordpress.com/"> Here there be dragons </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://jaywillmath.wordpress.com/"> jaywillmath </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://ldtopology.wordpress.com/"> Low Dimentional Topology </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="https://chiasme.wordpress.com/"> Mathematical Notes </a></small>
+    
+      <small><a class="sidebar-nav-item-wo-border" href="http://math.blogoverflow.com/"> Mathematical Community Blog </a></small>
+    
+    
+
+    
+    <!--<small><a class="sidebar-nav-item-wo-border" href="https://392c.wordpress.com/">392C Geometric Group Theory</a>
+    <a class="sidebar-nav-item-wo-border" href="https://andrescaicedo.wordpress.com/">A kind of library</a>
+    <a class="sidebar-nav-item-wo-border" href="https://assorteddetails.wordpress.com/">Assorted Details Following</a>
+    <a class="sidebar-nav-item-wo-border" href="http://boolesrings.org/">Booles' Rings</a>
+    <a class="sidebar-nav-item-wo-border" href="https://lamington.wordpress.com/">Geometry and the imagination</a>
+    <a class="sidebar-nav-item-wo-border" href="https://berstein.wordpress.com/">Here there be dragons</a>
+    <a class="sidebar-nav-item-wo-border" href="https://jaywillmath.wordpress.com/">jaywillmath</a>
+    <a class="sidebar-nav-item-wo-border" href="https://ldtopology.wordpress.com/">Low Dimensional Topology</a>
+    <a class="sidebar-nav-item-wo-border" href="https://chiasme.wordpress.com/">Mathematical Notes</a>
+    <a class="sidebar-nav-item-wo-border" href="http://math.blogoverflow.com/">Mathematics Community Blog</a>
+    </small> -->
+    
+    
+    
+    
+ <!--   
+    <li class="divider"></li> -->
+    
+<!--    <a class="sidebar-nav-item" href="/archive/v.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a> -->
+   <!-- <span class="sidebar-nav-item">Currently v</span> 
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>-->
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Math Salad</a>
+            <small>Incoherent mathematical writings</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\)</h1>
+  <span class="post-date">29 May 2015 Paul Plummer</span>
+  <p>In <a href="/2015/05/15/the-strong-measure-zero-game/">my post on the strong measure zero game</a>, I mentioned a game <script type="math/tex">G_1(\mathcal {N}_H, \mathcal{N}_H)</script>, where player one, who I will call <script type="math/tex">I</script>, presents player two, who I will call <script type="math/tex">II</script>, a sets from a group, where the normal closure of the set is the full group, and <script type="math/tex">II</script>, chooses one element from each set presented, trying to get a set whose normal closure is again the full group. The game lasts <script type="math/tex">\omega</script> innings (<script type="math/tex">\mathbb{N}= \omega</script> if you prefer that notation). Essentially the idea is that <script type="math/tex">I</script> gives presentations of the trivial group, and <script type="math/tex">II</script> is trying to end up with a presentation of the trivial group.</p>
+
+<p>As a simple example, we can consider the group of integers <script type="math/tex">(\mathbb Z,+)</script>. Since the group is abelian any group that normally generates the group, also generates the group. This also means that there is some linear combination of elements from any presented set that has value <script type="math/tex">1</script>. What player <script type="math/tex">II</script> can do to win, is choose a non identity element <script type="math/tex">x_0</script>, where <script type="math/tex">\vert x_0 \vert</script> is the least among non identity elements. If <script type="math/tex">\vert x_0 \vert=1</script>, player <script type="math/tex">II</script> has already chosen a set that normally generates and may choose arbitrarily. Suppose that <script type="math/tex">II</script> has chosen <script type="math/tex">x_0,...,x_n</script>, if <script type="math/tex">d:=\gcd(x_0,...,x_n)=1</script> we choose an arbitrary element. If we have <script type="math/tex">d>1</script>, then choose an element <script type="math/tex">x_{n+1}</script>, so that <script type="math/tex">% <![CDATA[
+\gcd(d,x_{n+1})<d %]]></script>. Note that we can do that, since otherwise, every element in the presented set would have <script type="math/tex">d > 1</script> dividing it, hence the greatest common divisor of the set, without the identity, would be greater than or equal to <script type="math/tex">d</script>, contradicting the set generates the group. So we can always decrease our greatest common divisor till we reach <script type="math/tex">1</script>. So we have a strategy where <script type="math/tex">II</script> will win every time. A similar argument can be used to show that <script type="math/tex">II</script> wins in groups where every strictly ascending chain of infinite index subgroups, is finite.</p>
+
+<p>It is pretty easy to find groups where <script type="math/tex">I</script> wins, by using large groups, like <script type="math/tex">(\mathbb{R},+)</script>, but what about finitely generated groups? We will show, in this post, that <script type="math/tex">I</script> has a winning strategy to win <script type="math/tex">F_2</script>, in fact it will be a “fixed strategy” where <script type="math/tex">I</script> will play the same no matter what <script type="math/tex">II</script> picks on <script type="math/tex">II</script>’s turns.</p>
+
+<p>Our proof will use facts from <a href="https://en.wikipedia.org/wiki/Small_cancellation_theory">small cancellation theory</a>, in particular small cancellation groups are not trivial. I will explain a bit of the idea of small cancellation conditions, and give key definitions. All the small cancellation that we discuss can be found in <em>Combinatorial Group Theory</em> Lyndon and Schupp, or <em>Geometry of Defining Relations in Groups</em> by Ol’shanskii, or <a href="https://en.wikipedia.org/wiki/Small_cancellation_theory">Wikipedia</a>.</p>
+
+<p>The idea of small cancellation theory is that, if you have a set of relations, satisfying a “small cancellation condition”, that is when you multiply the two different words, the length of the reduced product (remove the <script type="math/tex">xx^{-1}</script>) is not much shorter than the the sum of the lengths of the word. This, in a sense, gives control over what words end up representing the identity, and how words can be reduced using the relations that satisfy the small cancellation conditions.</p>
+
+<h2 id="basic-definition-for-small-cancellation-theory">Basic definition for small cancellation theory</h2>
+
+<p>The information in this section is all fairly basic stuff, you may want to skip this section, or just read the <script type="math/tex">C'(1/6)</script> definition and come back if there are some words you do not know.</p>
+
+<p><strong>Basic definitions for words in free groups.</strong> related to words and free groups. A word is a string of elements from some some set called an alphabet. For example <script type="math/tex">x, xyxx^{-1},</script> and <script type="math/tex">xy</script> are all (not equal) words from the alphabet <script type="math/tex">\{ x,y,x^{-1},y^{-1} \}</script>. A word is reduced if there is no occurrence of <script type="math/tex">tt^{-1}</script> or <script type="math/tex">t^{-1}t</script> in the word, and cyclically reduced provided it is not a nontrivial conjugate, so <script type="math/tex">w \neq t w' t^{-1}</script> and <script type="math/tex">w \neq t^{-1} w' t</script>. The length of a word <script type="math/tex">w</script>, which we call <script type="math/tex">\vert w \vert</script> is the number of elements in the reduced version of the word; this is well defined. So <script type="math/tex">\vert xyxx^{-1} \vert = \vert xy \vert =2</script>, for example.</p>
+
+<p><strong>Definition of symmetrized  presentation.</strong> Suppose <script type="math/tex">G = \langle X \mid R \rangle</script>. We say the set of relations <script type="math/tex">R</script> is symmetrized provided it is closed under taking inverses, and taking cyclic permutations of words up to being cyclically reduced, and every word in <script type="math/tex">R</script> is cyclical reduced. <script type="math/tex">G</script> has a symmetrized presentation provided <script type="math/tex">R</script> is symmetrized. For example</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+R = &\{ab^3ab^4,b^3ab^4a^{-1}, ab^4 a ^{-1} b^{-3}, \\
+& b^4a^{-1} b^{-3} a ^{-1}, a^{-1}b^{-3}a^{-1}b^{-4},... \text{inverses} \}.
+\end{align*} %]]></script>
+
+<p><strong>Definition of <script type="math/tex">C'(1/6)</script>:</strong> We say that <script type="math/tex">p</script> is a piece relative to <script type="math/tex">R</script> provided there exists two distinct elements <script type="math/tex">r_1,r_2 \in R</script> with <script type="math/tex">r_1=pc_1</script> and <script type="math/tex">r_2=pc_2</script>, where “<script type="math/tex">=</script>” is word equality, so no cancellation. We way <script type="math/tex">R</script> has condition <script type="math/tex">C'(1/6)</script> if <script type="math/tex">r \in R</script> and <script type="math/tex">r=pc</script> where <script type="math/tex">p</script> is a piece, then <script type="math/tex">% <![CDATA[
+\vert p \vert < \frac{1}{6} \vert r \vert %]]></script>. There is an entirely similar definition for <script type="math/tex">C'(\lambda).</script></p>
+
+<p>The reason I only mention <script type="math/tex">C'(1/6)</script> is that it is a strong enough small cancellation condition to guarantee a group is infinite. Note that you can have a group that has a <script type="math/tex">C'(1/6)</script> presentation, but may not be given to you that way. It is an interesting fact that for <script type="math/tex">\lambda > 1/5</script>, every group has a <script type="math/tex">C'(\lambda)</script> presentation. There are many other small cancellation conditions, <script type="math/tex">C(p)</script> and <script type="math/tex">T(p)</script> for example, and you can mix-and-match different conditions too, but that is really beyond this post.</p>
+
+<h2 id="player-i-has-a-winning-strategy-in-g1-mathcalnf2mathcalnf2">Player <script type="math/tex">I</script> has a winning strategy in <script type="math/tex">G_1( \mathcal{N}_{F_2},\mathcal{N}_{F_2})</script></h2>
+
+<p>Let <script type="math/tex">F_2</script> be the free group of rank <script type="math/tex">2</script>, on the set <script type="math/tex">\{x,y\}</script>. We will show that <script type="math/tex">F_2</script> has a winning strategy, by showing that there is a sequence of sets, <script type="math/tex">A_0,...,A_n,...</script>, that normally generate(even generates) the group <script type="math/tex">F_2</script>, and any one element choice from each of these sets, so <script type="math/tex">\{a_0,...,a_n,...\}</script>, will result in a group that is <script type="math/tex">C'(1/6)</script>. The strategy will then be on the <script type="math/tex">n</script>th turn play <script type="math/tex">A_n</script>.</p>
+
+<p>There will be a couple parts where I make some estimates on inequalities, and make no attempt to make these as good as possible(the estimates I make are <em>good enough</em>). If you are sensitive to such disregard of sharp bounds, you will need to have your eyes covered for the rest of this proof. You have been warned.</p>
+
+<p><strong>Proposition 1.</strong> Let</p>
+
+<script type="math/tex; mode=display">w_n=\prod_{i=1}^{9 \cdot 100^{n+1}} xy^{100^{n+1}+i}=xy^{100^{n+1}+1}...xy^{100^{n+2}}.</script>
+
+<p>Then we have that <script type="math/tex">A_n=\{w_{n+1},xw_{n+1},w_{n+1}y\}</script> generates the group <script type="math/tex">F_2</script>, but any one element choice from each <script type="math/tex">A_n</script> results in a set of relations for a <script type="math/tex">C'(1/6)</script> group. In particular this means that for any choice of <script type="math/tex">a_i</script>’s, where <script type="math/tex">a_i \in A_i</script>, that <script type="math/tex">\langle x ,y \mid a_0,...,a_n,... \rangle</script> is an infinite group since it will be <script type="math/tex">C'(1/6)</script>.</p>
+
+<p><em>proof of Lemma 1.</em> First it is clear that each <script type="math/tex">A_n</script> generates <script type="math/tex">F_2</script> since we can multiply <script type="math/tex">w_{n+1}^{-1}</script> to cancel <script type="math/tex">w_{n+1}</script> on each term to end up with <script type="math/tex">x,y</script>, which generates the group. Let <script type="math/tex">R_w</script> be the smallest symmetrized set of words containing the word <script type="math/tex">w</script>, which is all the cyclically reduced, cyclic permutations of the word <script type="math/tex">w</script> and their inverses. For <script type="math/tex">R_{w_n}</script> all pieces are of the form <script type="math/tex">b^i a^{\pm 1} b^j</script>, where <script type="math/tex">-100^{n+2} \leq i,j\leq 100^{n+2}</script> (note that for many <script type="math/tex">i,j</script> can not actually be obtained). So the length of a pieces <script type="math/tex">p</script> are bounded by</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+2 \cdot 100^{n+2}+1<3\cdot 100^{n+2}, %]]></script>
+
+<p>and the length of each <script type="math/tex">w_n</script> is bounded from below by</p>
+
+<script type="math/tex; mode=display">9\cdot 100^{n+1} \cdot 100^{n+1}.</script>
+
+<p>We get that</p>
+
+<script type="math/tex; mode=display">\frac{ \vert p \vert }{ \vert w_n \vert } \le \frac{ 3 \cdot 100^{n+2} }{9 \cdot 100^{2n+2}}= \frac{1}{3 \cdot 100^n}</script>
+
+<p>which for <script type="math/tex">n>0</script> we have the right hand side is less than <script type="math/tex">1/6</script>. A very similar argument can be carried out for <script type="math/tex">R_{w_ny}</script> and <script type="math/tex">R_{xw_n}</script>, and in fact you can use the same bounds, since  our bounds are so rough. So each <script type="math/tex">R_w</script>, for <script type="math/tex">w \in A_n</script>, gives a <script type="math/tex">C'(1/6)</script> presentation. Say that <script type="math/tex">m>n</script> and <script type="math/tex">w \in A_m</script>, and <script type="math/tex">u \in A_n</script>, and we consider <script type="math/tex">R_w,R_u</script>. Note, that at “worst” the amount of cancellation between words in <script type="math/tex">R_w</script> and <script type="math/tex">R_u</script> will be bounded by the worst cancellation within <script type="math/tex">R_u</script>, since elements in <script type="math/tex">R_u</script> have small enough exponents on their <script type="math/tex">y</script>’s that they can not completely cancel out a <script type="math/tex">y^k</script> term in <script type="math/tex">R_w</script>. This worked for arbitrary choices. So let <script type="math/tex">a_0,...,a_n,...</script> be a sequence where <script type="math/tex">a_i \in A_i</script>, then <script type="math/tex">% <![CDATA[
+R=\bigcup_{i< \omega} R_{a_i} %]]></script> is a symmetrized set of relations, and we know that between two words, the cancellation is less than <script type="math/tex">1/6</script> the length of either of the words, so it gives a <script type="math/tex">C'(1/6)</script> presentation, hence <script type="math/tex">\langle x,y \mid a_0,...,a_n,... \rangle</script> is a <script type="math/tex">C'(1/6)</script> group, and is infinite. <script type="math/tex">\square</script></p>
+
+<p>I came up with this game in a class I took on selection principles, and studied it as a final project, and at the time I knew very little group theory (I still know very little), and even thought all finitely generated groups had a winning strategy for player <script type="math/tex">II</script>. At the end of the class I only really found some conditions for player <script type="math/tex">II</script> winning in finitely generated groups. I am actually not to sure these ideas are of interest, at least in the finitely generated case. I suspect it will be a while before I discuss these games on groups again, but I will end with a couple questions to ponder:</p>
+
+<ul>
+  <li>For finitely generated groups is there a nice demarcation line between player <script type="math/tex">I</script> or <script type="math/tex">II</script> having a winning strategy? For groups in general?</li>
+  <li>Are there groups where there is no winning strategy for either player? Are there finitely generated groups where there is no winning strategy?</li>
+  <li>There are a couple of other, similar ideas to consider, one where you replace normally generate with simply generate, or replace with generate finite index subgroup, or normally generate finite index subgroup, or mix-and-match the different sets. (I have not really thought about them much, but there are probably a lot of equivalences, because once you reach a finite index subgroup, in many cases, reach the full group) Are there any interesting connections and differences among them?</li>
+  <li>For those who have looked up the connection of these sorts of games with selection principles and Ramsey statements(see the <a href="/2015/05/15/the-strong-measure-zero-game/">references in the strong measure zero game post</a>): are there interesting connection between those and the games for finitely generated groups? For countable groups? For groups? In particular what would the Ramsey statements be?</li>
+  <li>Can you think of any cool group theoretic consequences of a group that has a winning strategy for <script type="math/tex">I</script>, how about for <script type="math/tex">II</script>?</li>
+</ul>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/05/15/the-strong-measure-zero-game/">
+            The strong measure zero game
+            <small>15 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

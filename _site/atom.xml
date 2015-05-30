@@ -4,7 +4,7 @@
  <title>Math Salad</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-05-17T09:06:09-06:00</updated>
+ <updated>2015-05-29T18:37:03-06:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -13,7 +13,83 @@
 
  
  <entry>
-   <title>The Strong Measure Zero Game</title>
+   <title>A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\)</title>
+   <link href="/2015/05/29/A-note-on-the-%22tivial-group-game%22/"/>
+   <updated>2015-05-29T00:00:00-06:00</updated>
+   <id>/2015/05/29/A-note-on-the-"tivial-group-game"</id>
+   <content type="html">&lt;p&gt;In &lt;a href=&quot;/2015/05/15/the-strong-measure-zero-game/&quot;&gt;my post on the strong measure zero game&lt;/a&gt;, I mentioned a game &lt;script type=&quot;math/tex&quot;&gt;G_1(\mathcal {N}_H, \mathcal{N}_H)&lt;/script&gt;, where player one, who I will call &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt;, presents player two, who I will call &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt;, a sets from a group, where the normal closure of the set is the full group, and &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt;, chooses one element from each set presented, trying to get a set whose normal closure is again the full group. The game lasts &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; innings (&lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}= \omega&lt;/script&gt; if you prefer that notation). Essentially the idea is that &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; gives presentations of the trivial group, and &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; is trying to end up with a presentation of the trivial group.&lt;/p&gt;
+
+&lt;p&gt;As a simple example, we can consider the group of integers &lt;script type=&quot;math/tex&quot;&gt;(\mathbb Z,+)&lt;/script&gt;. Since the group is abelian any group that normally generates the group, also generates the group. This also means that there is some linear combination of elements from any presented set that has value &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;. What player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; can do to win, is choose a non identity element &lt;script type=&quot;math/tex&quot;&gt;x_0&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\vert x_0 \vert&lt;/script&gt; is the least among non identity elements. If &lt;script type=&quot;math/tex&quot;&gt;\vert x_0 \vert=1&lt;/script&gt;, player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has already chosen a set that normally generates and may choose arbitrarily. Suppose that &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; has chosen &lt;script type=&quot;math/tex&quot;&gt;x_0,...,x_n&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;d:=\gcd(x_0,...,x_n)=1&lt;/script&gt; we choose an arbitrary element. If we have &lt;script type=&quot;math/tex&quot;&gt;d&gt;1&lt;/script&gt;, then choose an element &lt;script type=&quot;math/tex&quot;&gt;x_{n+1}&lt;/script&gt;, so that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\gcd(d,x_{n+1})&lt;d %]]&gt;&lt;/script&gt;. Note that we can do that, since otherwise, every element in the presented set would have &lt;script type=&quot;math/tex&quot;&gt;d &gt; 1&lt;/script&gt; dividing it, hence the greatest common divisor of the set, without the identity, would be greater than or equal to &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;, contradicting the set generates the group. So we can always decrease our greatest common divisor till we reach &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;. So we have a strategy where &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; will win every time. A similar argument can be used to show that &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; wins in groups where every strictly ascending chain of infinite index subgroups, is finite.&lt;/p&gt;
+
+&lt;p&gt;It is pretty easy to find groups where &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; wins, by using large groups, like &lt;script type=&quot;math/tex&quot;&gt;(\mathbb{R},+)&lt;/script&gt;, but what about finitely generated groups? We will show, in this post, that &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; has a winning strategy to win &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt;, in fact it will be a “fixed strategy” where &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; will play the same no matter what &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; picks on &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt;’s turns.&lt;/p&gt;
+
+&lt;p&gt;Our proof will use facts from &lt;a href=&quot;https://en.wikipedia.org/wiki/Small_cancellation_theory&quot;&gt;small cancellation theory&lt;/a&gt;, in particular small cancellation groups are not trivial. I will explain a bit of the idea of small cancellation conditions, and give key definitions. All the small cancellation that we discuss can be found in &lt;em&gt;Combinatorial Group Theory&lt;/em&gt; Lyndon and Schupp, or &lt;em&gt;Geometry of Defining Relations in Groups&lt;/em&gt; by Ol’shanskii, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Small_cancellation_theory&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The idea of small cancellation theory is that, if you have a set of relations, satisfying a “small cancellation condition”, that is when you multiply the two different words, the length of the reduced product (remove the &lt;script type=&quot;math/tex&quot;&gt;xx^{-1}&lt;/script&gt;) is not much shorter than the the sum of the lengths of the word. This, in a sense, gives control over what words end up representing the identity, and how words can be reduced using the relations that satisfy the small cancellation conditions.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-definition-for-small-cancellation-theory&quot;&gt;Basic definition for small cancellation theory&lt;/h2&gt;
+
+&lt;p&gt;The information in this section is all fairly basic stuff, you may want to skip this section, or just read the &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; definition and come back if there are some words you do not know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Basic definitions for words in free groups.&lt;/strong&gt; related to words and free groups. A word is a string of elements from some some set called an alphabet. For example &lt;script type=&quot;math/tex&quot;&gt;x, xyxx^{-1},&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;xy&lt;/script&gt; are all (not equal) words from the alphabet &lt;script type=&quot;math/tex&quot;&gt;\{ x,y,x^{-1},y^{-1} \}&lt;/script&gt;. A word is reduced if there is no occurrence of &lt;script type=&quot;math/tex&quot;&gt;tt^{-1}&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;t^{-1}t&lt;/script&gt; in the word, and cyclically reduced provided it is not a nontrivial conjugate, so &lt;script type=&quot;math/tex&quot;&gt;w \neq t w&#39; t^{-1}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;w \neq t^{-1} w&#39; t&lt;/script&gt;. The length of a word &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt;, which we call &lt;script type=&quot;math/tex&quot;&gt;\vert w \vert&lt;/script&gt; is the number of elements in the reduced version of the word; this is well defined. So &lt;script type=&quot;math/tex&quot;&gt;\vert xyxx^{-1} \vert = \vert xy \vert =2&lt;/script&gt;, for example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition of symmetrized  presentation.&lt;/strong&gt; Suppose &lt;script type=&quot;math/tex&quot;&gt;G = \langle X \mid R \rangle&lt;/script&gt;. We say the set of relations &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is symmetrized provided it is closed under taking inverses, and taking cyclic permutations of words up to being cyclically reduced, and every word in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is cyclical reduced. &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; has a symmetrized presentation provided &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is symmetrized. For example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+R = &amp;\{ab^3ab^4,b^3ab^4a^{-1}, ab^4 a ^{-1} b^{-3}, \\
+&amp; b^4a^{-1} b^{-3} a ^{-1}, a^{-1}b^{-3}a^{-1}b^{-4},... \text{inverses} \}.
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt;:&lt;/strong&gt; We say that &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; is a piece relative to &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; provided there exists two distinct elements &lt;script type=&quot;math/tex&quot;&gt;r_1,r_2 \in R&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;r_1=pc_1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r_2=pc_2&lt;/script&gt;, where “&lt;script type=&quot;math/tex&quot;&gt;=&lt;/script&gt;” is word equality, so no cancellation. We way &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; has condition &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; if &lt;script type=&quot;math/tex&quot;&gt;r \in R&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r=pc&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; is a piece, then &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\vert p \vert &lt; \frac{1}{6} \vert r \vert %]]&gt;&lt;/script&gt;. There is an entirely similar definition for &lt;script type=&quot;math/tex&quot;&gt;C&#39;(\lambda).&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The reason I only mention &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; is that it is a strong enough small cancellation condition to guarantee a group is infinite. Note that you can have a group that has a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; presentation, but may not be given to you that way. It is an interesting fact that for &lt;script type=&quot;math/tex&quot;&gt;\lambda &gt; 1/5&lt;/script&gt;, every group has a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(\lambda)&lt;/script&gt; presentation. There are many other small cancellation conditions, &lt;script type=&quot;math/tex&quot;&gt;C(p)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;T(p)&lt;/script&gt; for example, and you can mix-and-match different conditions too, but that is really beyond this post.&lt;/p&gt;
+
+&lt;h2 id=&quot;player-i-has-a-winning-strategy-in-g1-mathcalnf2mathcalnf2&quot;&gt;Player &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; has a winning strategy in &lt;script type=&quot;math/tex&quot;&gt;G_1( \mathcal{N}_{F_2},\mathcal{N}_{F_2})&lt;/script&gt;&lt;/h2&gt;
+
+&lt;p&gt;Let &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt; be the free group of rank &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;, on the set &lt;script type=&quot;math/tex&quot;&gt;\{x,y\}&lt;/script&gt;. We will show that &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt; has a winning strategy, by showing that there is a sequence of sets, &lt;script type=&quot;math/tex&quot;&gt;A_0,...,A_n,...&lt;/script&gt;, that normally generate(even generates) the group &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt;, and any one element choice from each of these sets, so &lt;script type=&quot;math/tex&quot;&gt;\{a_0,...,a_n,...\}&lt;/script&gt;, will result in a group that is &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt;. The strategy will then be on the &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;th turn play &lt;script type=&quot;math/tex&quot;&gt;A_n&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;There will be a couple parts where I make some estimates on inequalities, and make no attempt to make these as good as possible(the estimates I make are &lt;em&gt;good enough&lt;/em&gt;). If you are sensitive to such disregard of sharp bounds, you will need to have your eyes covered for the rest of this proof. You have been warned.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposition 1.&lt;/strong&gt; Let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;w_n=\prod_{i=1}^{9 \cdot 100^{n+1}} xy^{100^{n+1}+i}=xy^{100^{n+1}+1}...xy^{100^{n+2}}.&lt;/script&gt;
+
+&lt;p&gt;Then we have that &lt;script type=&quot;math/tex&quot;&gt;A_n=\{w_{n+1},xw_{n+1},w_{n+1}y\}&lt;/script&gt; generates the group &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt;, but any one element choice from each &lt;script type=&quot;math/tex&quot;&gt;A_n&lt;/script&gt; results in a set of relations for a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; group. In particular this means that for any choice of &lt;script type=&quot;math/tex&quot;&gt;a_i&lt;/script&gt;’s, where &lt;script type=&quot;math/tex&quot;&gt;a_i \in A_i&lt;/script&gt;, that &lt;script type=&quot;math/tex&quot;&gt;\langle x ,y \mid a_0,...,a_n,... \rangle&lt;/script&gt; is an infinite group since it will be &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;proof of Lemma 1.&lt;/em&gt; First it is clear that each &lt;script type=&quot;math/tex&quot;&gt;A_n&lt;/script&gt; generates &lt;script type=&quot;math/tex&quot;&gt;F_2&lt;/script&gt; since we can multiply &lt;script type=&quot;math/tex&quot;&gt;w_{n+1}^{-1}&lt;/script&gt; to cancel &lt;script type=&quot;math/tex&quot;&gt;w_{n+1}&lt;/script&gt; on each term to end up with &lt;script type=&quot;math/tex&quot;&gt;x,y&lt;/script&gt;, which generates the group. Let &lt;script type=&quot;math/tex&quot;&gt;R_w&lt;/script&gt; be the smallest symmetrized set of words containing the word &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt;, which is all the cyclically reduced, cyclic permutations of the word &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; and their inverses. For &lt;script type=&quot;math/tex&quot;&gt;R_{w_n}&lt;/script&gt; all pieces are of the form &lt;script type=&quot;math/tex&quot;&gt;b^i a^{\pm 1} b^j&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;-100^{n+2} \leq i,j\leq 100^{n+2}&lt;/script&gt; (note that for many &lt;script type=&quot;math/tex&quot;&gt;i,j&lt;/script&gt; can not actually be obtained). So the length of a pieces &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; are bounded by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+2 \cdot 100^{n+2}+1&lt;3\cdot 100^{n+2}, %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;and the length of each &lt;script type=&quot;math/tex&quot;&gt;w_n&lt;/script&gt; is bounded from below by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;9\cdot 100^{n+1} \cdot 100^{n+1}.&lt;/script&gt;
+
+&lt;p&gt;We get that&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{ \vert p \vert }{ \vert w_n \vert } \le \frac{ 3 \cdot 100^{n+2} }{9 \cdot 100^{2n+2}}= \frac{1}{3 \cdot 100^n}&lt;/script&gt;
+
+&lt;p&gt;which for &lt;script type=&quot;math/tex&quot;&gt;n&gt;0&lt;/script&gt; we have the right hand side is less than &lt;script type=&quot;math/tex&quot;&gt;1/6&lt;/script&gt;. A very similar argument can be carried out for &lt;script type=&quot;math/tex&quot;&gt;R_{w_ny}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;R_{xw_n}&lt;/script&gt;, and in fact you can use the same bounds, since  our bounds are so rough. So each &lt;script type=&quot;math/tex&quot;&gt;R_w&lt;/script&gt;, for &lt;script type=&quot;math/tex&quot;&gt;w \in A_n&lt;/script&gt;, gives a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; presentation. Say that &lt;script type=&quot;math/tex&quot;&gt;m&gt;n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;w \in A_m&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;u \in A_n&lt;/script&gt;, and we consider &lt;script type=&quot;math/tex&quot;&gt;R_w,R_u&lt;/script&gt;. Note, that at “worst” the amount of cancellation between words in &lt;script type=&quot;math/tex&quot;&gt;R_w&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;R_u&lt;/script&gt; will be bounded by the worst cancellation within &lt;script type=&quot;math/tex&quot;&gt;R_u&lt;/script&gt;, since elements in &lt;script type=&quot;math/tex&quot;&gt;R_u&lt;/script&gt; have small enough exponents on their &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt;’s that they can not completely cancel out a &lt;script type=&quot;math/tex&quot;&gt;y^k&lt;/script&gt; term in &lt;script type=&quot;math/tex&quot;&gt;R_w&lt;/script&gt;. This worked for arbitrary choices. So let &lt;script type=&quot;math/tex&quot;&gt;a_0,...,a_n,...&lt;/script&gt; be a sequence where &lt;script type=&quot;math/tex&quot;&gt;a_i \in A_i&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+R=\bigcup_{i&lt; \omega} R_{a_i} %]]&gt;&lt;/script&gt; is a symmetrized set of relations, and we know that between two words, the cancellation is less than &lt;script type=&quot;math/tex&quot;&gt;1/6&lt;/script&gt; the length of either of the words, so it gives a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; presentation, hence &lt;script type=&quot;math/tex&quot;&gt;\langle x,y \mid a_0,...,a_n,... \rangle&lt;/script&gt; is a &lt;script type=&quot;math/tex&quot;&gt;C&#39;(1/6)&lt;/script&gt; group, and is infinite. &lt;script type=&quot;math/tex&quot;&gt;\square&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;I came up with this game in a class I took on selection principles, and studied it as a final project, and at the time I knew very little group theory (I still know very little), and even thought all finitely generated groups had a winning strategy for player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt;. At the end of the class I only really found some conditions for player &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; winning in finitely generated groups. I am actually not to sure these ideas are of interest, at least in the finitely generated case. I suspect it will be a while before I discuss these games on groups again, but I will end with a couple questions to ponder:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For finitely generated groups is there a nice demarcation line between player &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt; having a winning strategy? For groups in general?&lt;/li&gt;
+  &lt;li&gt;Are there groups where there is no winning strategy for either player? Are there finitely generated groups where there is no winning strategy?&lt;/li&gt;
+  &lt;li&gt;There are a couple of other, similar ideas to consider, one where you replace normally generate with simply generate, or replace with generate finite index subgroup, or normally generate finite index subgroup, or mix-and-match the different sets. (I have not really thought about them much, but there are probably a lot of equivalences, because once you reach a finite index subgroup, in many cases, reach the full group) Are there any interesting connections and differences among them?&lt;/li&gt;
+  &lt;li&gt;For those who have looked up the connection of these sorts of games with selection principles and Ramsey statements(see the &lt;a href=&quot;/2015/05/15/the-strong-measure-zero-game/&quot;&gt;references in the strong measure zero game post&lt;/a&gt;): are there interesting connection between those and the games for finitely generated groups? For countable groups? For groups? In particular what would the Ramsey statements be?&lt;/li&gt;
+  &lt;li&gt;Can you think of any cool group theoretic consequences of a group that has a winning strategy for &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt;, how about for &lt;script type=&quot;math/tex&quot;&gt;II&lt;/script&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The strong measure zero game</title>
    <link href="/2015/05/15/the-strong-measure-zero-game/"/>
    <updated>2015-05-15T00:00:00-06:00</updated>
    <id>/2015/05/15/the-strong-measure-zero-game</id>
@@ -60,7 +136,7 @@
 &lt;p&gt;One of the things that makes these results interesting is that this means it is &lt;em&gt;consistent&lt;/em&gt; for winning strategies to always exist, that is when all strong measure zero sets are countable, and it is consistent for there to be sets where there is no winning strategy, which is when there are uncountable strong measure zero sets(as an example the Luzin sets mentioned before).&lt;/p&gt;
 
 &lt;h2 id=&quot;the-proofs-of-theorem-1-and-2&quot;&gt;The Proofs of Theorem 1 and 2&lt;/h2&gt;
-&lt;p&gt;The proofs of Theorem 1 and 2, that will be presented, have been attributed to Galvin, not sure what paper(s) though.* I found out about this proof in a class, taught by Marion Scheepers, a few years ago.&lt;/p&gt;
+&lt;p&gt;The proofs of Theorem 1 and 2, that will be presented, is Galvin’s with some modification and can be found in his paper &lt;em&gt;Indeterminacy of point-open games&lt;/em&gt;. I found out about this proof in a class, taught by Marion Scheepers, a few years ago.&lt;/p&gt;
 
 &lt;p&gt;First, some notation, &lt;script type=&quot;math/tex&quot;&gt;^\omega \omega&lt;/script&gt; will be the set of infinite sequences of order type &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 ^{&lt; \omega} \omega %]]&gt;&lt;/script&gt; will be the set of finite sequences indexed by finite ordinals. And if &lt;script type=&quot;math/tex&quot;&gt;x,y&lt;/script&gt; are sequences, then &lt;script type=&quot;math/tex&quot;&gt;x \frown y&lt;/script&gt; will be the concatenation of the sequences. As examples&lt;/p&gt;
@@ -204,6 +280,7 @@ m_{t-1} &lt; m_t %]]&gt;&lt;/script&gt;,&lt;/li&gt;
 &lt;p&gt;You can find out more about these sorts of things from this, &lt;em&gt;non-exhaustive&lt;/em&gt;, list:&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449 (this is sort of difficult to find, so included all the information, for libraries)&lt;/li&gt;
   &lt;li&gt;“The combinatorics of open covers (I): Ramsey theory” by Marion Scheepers,&lt;/li&gt;
   &lt;li&gt;“The combinatorics of open covers (II)” by Winfried Just, Arnold W. Miller, Marion Scheepers, and Paul J. Szeptycki,&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
@@ -215,8 +292,6 @@ m_{t-1} &lt; m_t %]]&gt;&lt;/script&gt;,&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The “Ramsey theory of open covers” are more accessible and shorter than “The combinatorics of open covers…” and discuss some of the Ramsey theoretic aspects that are related to these games and to “selection principles” (which I did not discuss here, although are very related to games &lt;script type=&quot;math/tex&quot;&gt;G(\mathcal A,B)&lt;/script&gt;).&lt;/p&gt;
-
-&lt;p&gt;*I think the proof is in : &lt;code&gt;F. Galvin, Indeterminacy of point-open games, Bull. Acad. Pol. Sci., Sér. Sci. Math. Astron. Phys. 26 :5 (1978), 445–449&lt;/code&gt; based on some citations, it looks like that paper proved the duality of the games used to prove Theorem 1. I have not been able to find a copy of the paper though, or the results explicitly cited. I have requested a copy from interlibrary loans, and emailed an expert in the field, so eventually I should be able to confirm or deny this claim, and update with a correct reference.&lt;/p&gt;
 
 </content>
  </entry>
