@@ -3,7 +3,8 @@
 ---
 
 ## Background
-Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject. 
+
+Originally, my first post was going to be an introduction to selection principles, especially those in topology, and a few other related concepts. I decided I could not do justice to the subject in one post (especially with my minimal knowledge), and have opted to present some very cool results that will, hopefully, give a taste of the ideas that come up when studying the subject.
 
  **Definition of the game $$G_1( \cal A, \cal B) $$.** Let $$ \mathcal{A}$$ and $$\mathcal{B} $$ be collections of sets, we define the game $$G_1(\cal{A}, \cal{B})$$ to be a game with two players, that we will denote $$I$$ and $$II$$, and the game will have [$$\omega$$ innings][ordinals], where each inning consists of a turn by $$I$$ and then a turn by $$II$$. By $$\omega$$ innings we mean there is an inning for each $$0,1,2,3, \dots $$ (if you prefer $$\omega = \mathbb N$$). The innings follow this pattern: player $$I$$ starts off, in inning $$n$$, by presenting a nonempty set $$A_n$$ from $$\cal A$$ which marks the end of player $$I$$'s turn, and then player $$II$$ picks an $$a_n \in  A_n$$. At the end of the $$\omega$$ innings we are left with a play 
  
@@ -15,7 +16,7 @@ A couple of examples to consider:
 
 * Let $$D$$ consist of all dense subsets of $$ \mathbb R $$. Consider $$G_1 (D,D) $$.
 * Let $$X$$ be a countable subset of some topological space $$Y$$ and $${\cal{O}}_Y$$ is the set of all open covers of $$Y$$, and $${\cal {O}}_X$$ the set of covers for $$X$$. Consider $$G_1( {\cal{O}}_Y, {\cal{O}}_X) $$.
-* $$V$$ is a finite dimentional rational vector space, and $$A$$ is the set of infinite vector subspaces of $$V$$, and $$B$$ is the set of sets that contain infinite rational vector subspaces of $$V$$. Consider $$ G_1(A,B) $$
+* $$V$$ is a finite dimensional rational vector space, and $$A$$ is the set of infinite vector subspaces of $$V$$, and $$B$$ is the set of sets that contain infinite rational vector subspaces of $$V$$. Consider $$ G_1(A,B) $$
 * Let $$ U $$ be an [ultrafilter][ultrafilters] on some set. Consider $$G_1(U,U) $$.
 * Let $$H$$ be a group and $$ {\mathcal N}_H $$ the set of subsets of $$H$$ that normally generate the group. Consider $$G_1({\mathcal N}_H, {\mathcal N}_H)$$ . There are also variation of considering sets that generate the group $$H$$, $$ {\mathcal K}_H $$ and looking at $$G_1({\mathcal K}_H, {\mathcal N}_H)$$, $$G_1({\mathcal N}_H, {\mathcal K}_H)$$, $$G_1({\mathcal K}_H, {\mathcal K}_H)$$ (there is a very good chance I am going to write about this bullet point, and related ideas, in future posts, since it is basically the reason I started the blog).
 * etc. Think of some others!
@@ -27,7 +28,7 @@ Do any of the above (bulleted)examples have winning strategies for one of the pl
 
  **Definition of strong measure zero.** A set $$X \subseteq \mathbb R$$ is strong measure zero if, for all sequences $$ ( \epsilon_n \mid n  \in \omega) $$ of positive real numbers, then there exists a sequence of intervals $$I_n$$, where the length of $$I_n$$ is less than $$\epsilon_n $$ for all $$n$$, and $$X \subseteq  \cup_{n \in \omega} I_n$$.
  
- Every strong measure zero set is [Lebesgue measure zero][measurezero], although not every measure zero set is strong measure zero, the [Cantor set][cantor] provides [such an example][cannotsmz]. It is also easy to see that every countable set is strong measure zero. In fact [Borel's conjecture][smz] actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. [Luzin sets][luzin] provide examples of strong measure zero sets that are not countable.
+ Every strong measure zero set is [Lebesgue measure zero][measurezero], although [not every measure zero set is strong measure zero][cannotsmz], the [Cantor set][cantor] provides such an example. It is also easy to see that every countable set is strong measure zero. In fact [Borel's conjecture][smz] actually conjectures that every strong measure zero set is countable. That conjecture ended up being independent of the usual axioms, ZFC, so it is consistent for there to be uncountable strong measure zero sets, and consistent for there to be only countable strong measure zero sets. [Luzin sets][luzin] provide examples of strong measure zero sets that are not countable.
  
  Let $$ J_{\epsilon} $$, $$ \epsilon >0 $$, be the set of all intervals of length less than $$\epsilon$$, and say $${\mathcal J}:= \{J_\epsilon \mid \epsilon >0 \} $$, and $${\mathcal O}_X $$ the set of open covers of some set $$X \subseteq \mathbb R$$ (where the open sets come from $$ \mathbb R$$ and not $$X$$ with the subspace topology).
  
