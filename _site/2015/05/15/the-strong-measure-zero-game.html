@@ -1,198 +1,73 @@
 <!DOCTYPE html>
-<html lang="en-us">
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<html lang="en">
 
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>The Strong Measure Zero Game</title>
+  <meta name="description" content="Background">
 
-  <title>
-    
-      The strong measure zero game &middot; Math Salad
-    
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/lanyon.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2015/05/15/the-strong-measure-zero-game.html">
+  <link rel="alternate" type="application/rss+xml" title="Mathsalad" href="/feed.xml">
+  
+  
 </head>
 
 
   <body>
-  
-    <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
-  tex2jax: {
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-});
-</script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p></p>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Mathsalad</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about.html">About</a>
+          
+        
+          
+          <a class="page-link" href="/archive.html">Archive</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
   </div>
 
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">Home</a>
-
-    
-
-    
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/about/">About</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/archive/">Archive</a>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-    
-   <a class="sidebar-nav-item" href="mailto:corrections_comments@mathsalad.com">Email</a>
-    
-    <a class="sidebar-nav-item"  href="/feed.xml">RSS</a>
-    
-   <!-- <li class="sidebar-nav-item"></li> --> 
-    <span class="sidebar-nav-item">Recent</span>
-     <!--  <ul class="posts"> --> 
-	  
-	   <!-- <li> --> 
-		   <small><span class="sidebar-nav-item-wo-border">29 May 2015&raquo; <a  href="/2015/05/29/A-note-on-the-%22tivial-group-game%22/"> 
-		   A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\)</a></span>  
-		     </small> 
-	  <!-- </li>  -->
-	  
-	   <!-- <li> --> 
-		   <small><span class="sidebar-nav-item-wo-border">15 May 2015&raquo; <a  href="/2015/05/15/the-strong-measure-zero-game/"> 
-		   The strong measure zero game</a></span>  
-		     </small> 
-	  <!-- </li>  -->
-	  
-<!--  </ul>-->
-    
-    
-<!--<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
-    
-    <!-- <li class="sidebar-nav-item"></li> --> 
-    <span class="sidebar-nav-item">Blogroll</span>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://392c.wordpress.com/"> 392C Geometric Group Theory </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://andrescaicedo.wordpress.com/"> A kind of library </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://alexsisto.wordpress.com/"> Alex Sisto </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="http://alexpclark.com/"> alexpclark </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://assorteddetails.wordpress.com/"> Assorted Details Following </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="http://boolesrings.org/"> Booles' Rings </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="">  </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://berstein2015.wordpress.com/"> Exploring the works of Gilbert Baumslag </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://lamington.wordpress.com/"> Geometry and the imagination </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://berstein.wordpress.com/"> Here there be dragons </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://jaywillmath.wordpress.com/"> jaywillmath </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://ldtopology.wordpress.com/"> Low Dimentional Topology </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="https://chiasme.wordpress.com/"> Mathematical Notes </a></small>
-    
-      <small><a class="sidebar-nav-item-wo-border" href="http://math.blogoverflow.com/"> Mathematical Community Blog </a></small>
-    
-    
-
-    
-    <!--<small><a class="sidebar-nav-item-wo-border" href="https://392c.wordpress.com/">392C Geometric Group Theory</a>
-    <a class="sidebar-nav-item-wo-border" href="https://andrescaicedo.wordpress.com/">A kind of library</a>
-    <a class="sidebar-nav-item-wo-border" href="https://assorteddetails.wordpress.com/">Assorted Details Following</a>
-    <a class="sidebar-nav-item-wo-border" href="http://boolesrings.org/">Booles' Rings</a>
-    <a class="sidebar-nav-item-wo-border" href="https://lamington.wordpress.com/">Geometry and the imagination</a>
-    <a class="sidebar-nav-item-wo-border" href="https://berstein.wordpress.com/">Here there be dragons</a>
-    <a class="sidebar-nav-item-wo-border" href="https://jaywillmath.wordpress.com/">jaywillmath</a>
-    <a class="sidebar-nav-item-wo-border" href="https://ldtopology.wordpress.com/">Low Dimensional Topology</a>
-    <a class="sidebar-nav-item-wo-border" href="https://chiasme.wordpress.com/">Mathematical Notes</a>
-    <a class="sidebar-nav-item-wo-border" href="http://math.blogoverflow.com/">Mathematics Community Blog</a>
-    </small> -->
-    
-    
-    
-    
- <!--   
-    <li class="divider"></li> -->
-    
-<!--    <a class="sidebar-nav-item" href="/archive/v.zip">Download</a>
-    <a class="sidebar-nav-item" href="">GitHub project</a> -->
-   <!-- <span class="sidebar-nav-item">Currently v</span> 
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2015. All rights reserved.
-    </p>
-  </div>-->
-</div>
+</header>
 
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">Math Salad</a>
-            <small>Incoherent mathematical writings</small>
-          </h3>
-        </div>
-      </div>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-      <div class="container content">
-        <div class="post">
-  <h1 class="post-title">The strong measure zero game</h1>
+
+<div class="post">
+  <h1 class="post-title">The Strong Measure Zero Game</h1>
   <span class="post-date">15 May 2015 Paul Plummer</span>
   <h2 id="background">Background</h2>
 
@@ -334,7 +209,7 @@ X \setminus \bigcup_{ \alpha \in { ^{< \omega} \omega} } \left( \bigcap_{n \in \
 
 <p><em>proof of Theorem 2.</em> First we will prove (<script type="math/tex">\Leftarrow</script>), so suppose that <script type="math/tex">X</script> is not strong measure zero. Hence there is a sequence <script type="math/tex">(\epsilon_n)</script> for <script type="math/tex">n \in \omega</script> such that, such that <script type="math/tex">X</script> for all sequences of intervals <script type="math/tex">(A_n)</script>, for <script type="math/tex">{n \in \omega}</script>, length of <script type="math/tex">A_n</script> is less than or equal too <script type="math/tex">\epsilon_n</script>. So have player <script type="math/tex">I</script> plays <script type="math/tex">J_{\epsilon_n}</script> in inning <script type="math/tex">n</script>, so player <script type="math/tex">II</script> can not cover the space, since it will only pick intervals less than <script type="math/tex">\epsilon_n</script> at inning <script type="math/tex">n</script>.</p>
 
-<p>We will know prove (<script type="math/tex">\Rightarrow</script>), we will do the contrapositive, so we will show that if <script type="math/tex">X</script> is strong measure zero then <script type="math/tex">I</script> does not have a winning strategy. Let <script type="math/tex">\sigma</script> be an arbitrary strategy for player <script type="math/tex">I</script>, and <script type="math/tex">X</script> is strong measure zero. We will show that there is a play, by player <script type="math/tex">II</script> that will beat this strategy. Here are some things that we are going to assume, to make the problem a bit easier:</p>
+<p>We will now prove (<script type="math/tex">\Rightarrow</script>), we will do the contrapositive, so we will show that if <script type="math/tex">X</script> is strong measure zero then <script type="math/tex">I</script> does not have a winning strategy. Let <script type="math/tex">\sigma</script> be an arbitrary strategy for player <script type="math/tex">I</script>, and <script type="math/tex">X</script> is strong measure zero. We will show that there is a play, by player <script type="math/tex">II</script> that will beat this strategy. Here are some things that we are going to assume, to make the problem a bit easier:</p>
 
 <ol>
   <li>That we are playing on strong measure zero sets, that are subsets of compact sets, and in fact we will assume to be working with <script type="math/tex">[0,1]</script>. This is enough since we can write <script type="math/tex">\mathbb {R}</script> as a countable union of compact sets, for example <script type="math/tex">\bigcup_{i \in \mathbb Z} [i,i+1]</script>, and partition the innings, into countably infinite many infinite sets (think of sets of the form <script type="math/tex">\{p^n \mid n \in \mathbb{N} \}</script>, <script type="math/tex">p</script> prime ), so we play the strong measure zero game on the <script type="math/tex">j</script>th compact set when the inning we are in is in the <script type="math/tex">j</script>th partition.</li>
@@ -404,7 +279,7 @@ m_{t-1} < m_t %]]></script>,</li>
     
       <li>
         <h3>
-          <a href="/2015/05/29/A-note-on-the-%22tivial-group-game%22/">
+          <a href="/2015/05/29/A-note-on-the-tivial-group-game.html">
             A note on the "trivial group presentation game": \(I\) has a winning strategy on the group \(F_2\)
             <small>29 May 2015</small>
           </a>
@@ -415,26 +290,17 @@ m_{t-1} < m_t %]]></script>,</li>
 </div>
 
       </div>
-    </div>
+    </main>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body></body>
+</html>
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
+
 </html>
